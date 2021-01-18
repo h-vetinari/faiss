@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Struct faiss::VStackInvertedLists &mdash; Faiss  documentation</title>
   
@@ -20,7 +20,10 @@
 
   
   
+
   
+  
+
   
 
   
@@ -33,7 +36,6 @@
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/language_data.js"></script>
         <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
@@ -56,7 +58,7 @@
           
 
           
-            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> Faiss
+            <a href="../../index.html" class="icon icon-home"> Faiss
           
 
           
@@ -288,6 +290,8 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -301,7 +305,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             <a href="../../_sources/cpp_api/struct/structfaiss_1_1VStackInvertedLists.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -373,7 +377,8 @@
 <dl class="cpp function">
 <dt id="_CPPv4NK5faiss19VStackInvertedLists11release_idsE6size_tPK5idx_t">
 <span id="_CPPv3NK5faiss19VStackInvertedLists11release_idsE6size_tPK5idx_t"></span><span id="_CPPv2NK5faiss19VStackInvertedLists11release_idsE6size_tPK5idx_t"></span><span id="faiss::VStackInvertedLists::release_ids__s.idx_tCPC"></span><span class="target" id="structfaiss_1_1VStackInvertedLists_1a3048d4656332d160502cd95b22b53be5"></span>void <code class="sig-name descname">release_ids</code><span class="sig-paren">(</span>size_t <em>list_no</em>, <em class="property">const</em> <a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss19VStackInvertedLists5idx_tE" title="faiss::VStackInvertedLists::idx_t">idx_t</a> *<em>ids</em><span class="sig-paren">)</span> <em class="property">const</em> <em class="property">override</em><br /></dt>
-<dd></dd></dl>
+<dd><p>release ids returned by get_ids </p>
+</dd></dl>
 
 <dl class="cpp function">
 <dt id="_CPPv4NK5faiss19VStackInvertedLists13get_single_idE6size_t6size_t">
@@ -398,7 +403,8 @@
 <dl class="cpp function">
 <dt id="_CPPv4NK5faiss19VStackInvertedLists14prefetch_listsEPK5idx_ti">
 <span id="_CPPv3NK5faiss19VStackInvertedLists14prefetch_listsEPK5idx_ti"></span><span id="_CPPv2NK5faiss19VStackInvertedLists14prefetch_listsEPK5idx_ti"></span><span id="faiss::VStackInvertedLists::prefetch_lists__idx_tCP.iC"></span><span class="target" id="structfaiss_1_1VStackInvertedLists_1af37c2171d22f7f9200fa5cdedb363471"></span>void <code class="sig-name descname">prefetch_lists</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss19VStackInvertedLists5idx_tE" title="faiss::VStackInvertedLists::idx_t">idx_t</a> *<em>list_nos</em>, int <em>nlist</em><span class="sig-paren">)</span> <em class="property">const</em> <em class="property">override</em><br /></dt>
-<dd></dd></dl>
+<dd><p>prepare the following lists (default does nothing) a list can be -1 hence the signed long </p>
+</dd></dl>
 
 <dl class="cpp function">
 <dt id="_CPPv4N5faiss19VStackInvertedLists11add_entriesE6size_t6size_tPK5idx_tPK7uint8_t">
@@ -414,18 +420,6 @@
 <dt id="_CPPv4N5faiss19VStackInvertedLists6resizeE6size_t6size_t">
 <span id="_CPPv3N5faiss19VStackInvertedLists6resizeE6size_t6size_t"></span><span id="_CPPv2N5faiss19VStackInvertedLists6resizeE6size_t6size_t"></span><span id="faiss::VStackInvertedLists::resize__s.s"></span><span class="target" id="structfaiss_1_1ReadOnlyInvertedLists_1a7b65c76388ba2fbc17a7060f6cf87039"></span>void <code class="sig-name descname">resize</code><span class="sig-paren">(</span>size_t <em>list_no</em>, size_t <em>new_size</em><span class="sig-paren">)</span> <em class="property">override</em><br /></dt>
 <dd></dd></dl>
-
-<dl class="cpp function">
-<dt>
-<span class="target" id="structfaiss_1_1InvertedLists_1ad9bd9641ac86e0851d39a96119db3e78"></span>void <code class="sig-name descname">release_ids</code><span class="sig-paren">(</span>size_t <em>list_no</em>, <em class="property">const</em> <a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss19VStackInvertedLists5idx_tE" title="faiss::VStackInvertedLists::idx_t">idx_t</a> *<em>ids</em><span class="sig-paren">)</span> <em class="property">const</em><br /></dt>
-<dd><p>release ids returned by get_ids </p>
-</dd></dl>
-
-<dl class="cpp function">
-<dt>
-<span class="target" id="structfaiss_1_1InvertedLists_1aa661652a062ecb58b02f10d2a671c9fe"></span>void <code class="sig-name descname">prefetch_lists</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss19VStackInvertedLists5idx_tE" title="faiss::VStackInvertedLists::idx_t">idx_t</a> *<em>list_nos</em>, int <em>nlist</em><span class="sig-paren">)</span> <em class="property">const</em><br /></dt>
-<dd><p>prepare the following lists (default does nothing) a list can be -1 hence the signed long </p>
-</dd></dl>
 
 <dl class="cpp function">
 <dt id="_CPPv4N5faiss19VStackInvertedLists9add_entryE6size_t5idx_tPK7uint8_t">
@@ -511,37 +505,29 @@
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="structfaiss_1_1VectorTransform.html" class="btn btn-neutral float-right" title="Struct faiss::VectorTransform" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="structfaiss_1_1StopWordsInvertedLists.html" class="btn btn-neutral float-left" title="Struct faiss::StopWordsInvertedLists" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+        <a href="structfaiss_1_1VectorTransform.html" class="btn btn-neutral float-right" title="Struct faiss::VectorTransform" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="structfaiss_1_1StopWordsInvertedLists.html" class="btn btn-neutral float-left" title="Struct faiss::StopWordsInvertedLists" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright Facebook, Inc. and its affiliates.
+        &#169; Copyright Facebook, Inc. and its affiliates..
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
