@@ -113,14 +113,14 @@
     <member refid="structfaiss_1_1BitstringReader_1a923b543ec505de62bc9a571027cb7e62" kind="variable"><name>code</name></member>
     <member refid="structfaiss_1_1BitstringReader_1aff839ea7bd1813717c2bc1feabab2773" kind="variable"><name>code_size</name></member>
     <member refid="structfaiss_1_1BitstringReader_1ae0a26c23a5659205cd1221b7f9e379eb" kind="variable"><name>i</name></member>
-    <member refid="structfaiss_1_1BitstringReader_1a072091ffc6244d551489564317396b1f" kind="function"><name>BitstringReader</name></member>
+    <member refid="structfaiss_1_1BitstringReader_1ae4ce587dda2c41d64f445019781d9f86" kind="function"><name>BitstringReader</name></member>
     <member refid="structfaiss_1_1BitstringReader_1a9d9f24ba35ee13dbdc8a90fd74d76066" kind="function"><name>read</name></member>
   </compound>
   <compound refid="structfaiss_1_1BitstringWriter" kind="struct"><name>faiss::BitstringWriter</name>
     <member refid="structfaiss_1_1BitstringWriter_1af185df9f141d8e45c8d092f551de68a6" kind="variable"><name>code</name></member>
     <member refid="structfaiss_1_1BitstringWriter_1a869df71e23e6e611247580c22fe49ac1" kind="variable"><name>code_size</name></member>
     <member refid="structfaiss_1_1BitstringWriter_1a1e1f882a539150a6bf0d06bf0f1dba89" kind="variable"><name>i</name></member>
-    <member refid="structfaiss_1_1BitstringWriter_1a2089ae88dda9878016af84f8518f4bf7" kind="function"><name>BitstringWriter</name></member>
+    <member refid="structfaiss_1_1BitstringWriter_1a56261b182f76de9984d586477b5649c6" kind="function"><name>BitstringWriter</name></member>
     <member refid="structfaiss_1_1BitstringWriter_1af8f527858ffdcc241a02408d2e791817" kind="function"><name>write</name></member>
   </compound>
   <compound refid="structfaiss_1_1BlockInvertedLists" kind="struct"><name>faiss::BlockInvertedLists</name>
@@ -250,7 +250,7 @@
     <member refid="structfaiss_1_1CMin_1a37ab277ca36fca8d8681655da3b54b68" kind="function"><name>nextafter</name></member>
   </compound>
   <compound refid="classfaiss_1_1gpu_1_1CpuTimer" kind="class"><name>faiss::gpu::CpuTimer</name>
-    <member refid="classfaiss_1_1gpu_1_1CpuTimer_1a9ee5ff7a6ce21c7aa8251fe0e18f1521" kind="variable"><name>start_</name></member>
+    <member refid="classfaiss_1_1gpu_1_1CpuTimer_1a6714256dcd528ad4c33d7c9eb6969ac4" kind="variable"><name>start_</name></member>
     <member refid="classfaiss_1_1gpu_1_1CpuTimer_1af2f8e832b4c5425e152834ae7aa2af49" kind="function"><name>CpuTimer</name></member>
     <member refid="classfaiss_1_1gpu_1_1CpuTimer_1a4a2795debf10bc7eb904d62356e41f0d" kind="function"><name>elapsedMilliseconds</name></member>
   </compound>
@@ -995,10 +995,11 @@
   </compound>
   <compound refid="structfaiss_1_1HammingComputer" kind="struct"><name>faiss::HammingComputer</name>
     <member refid="structfaiss_1_1HammingComputer_1a08ae6f504ef5b2bcd81df5f6ee45f8e4" kind="function"><name>HammingComputer</name></member>
-    <member refid="structfaiss_1_1HammingComputerM8_1a099424f3a1ea7d4da78a6e288376c9ac" kind="function"><name>set</name></member>
-    <member refid="structfaiss_1_1HammingComputerM8_1a10741cb74d89712eb3217f9740c7ac3b" kind="function"><name>hamming</name></member>
-    <member refid="structfaiss_1_1HammingComputerM8_1a30add67883789b4dd0fd39969e01afb9" kind="variable"><name>a</name></member>
-    <member refid="structfaiss_1_1HammingComputerM8_1a2c69b8d3ad9c8f0b08d4f18956ea76ac" kind="variable"><name>n</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a2738b8c53224a9d51df060d8efd062c8" kind="function"><name>set</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1aa114eb107f8cce136689b50d8dffafd1" kind="function"><name>hamming</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a5849e85860177e7334aa4273f74c8f32" kind="variable"><name>a8</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a690b6cdae0726c448e6da15ca03817bd" kind="variable"><name>quotient8</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a2653ab8230299d8f03f33c202a349850" kind="variable"><name>remainder8</name></member>
   </compound>
   <compound refid="structfaiss_1_1HammingComputer16" kind="struct"><name>faiss::HammingComputer16</name>
     <member refid="structfaiss_1_1HammingComputer16_1ac4340a237b6cf38bad084fe520ce4f38" kind="variable"><name>a0</name></member>
@@ -1056,8 +1057,9 @@
     <member refid="structfaiss_1_1HammingComputer8_1a1725426ae8afcc13132cea6b49e13058" kind="function"><name>hamming</name></member>
   </compound>
   <compound refid="structfaiss_1_1HammingComputerDefault" kind="struct"><name>faiss::HammingComputerDefault</name>
-    <member refid="structfaiss_1_1HammingComputerDefault_1aa807b4b3b14c5573acf27bad2cdd4b58" kind="variable"><name>a</name></member>
-    <member refid="structfaiss_1_1HammingComputerDefault_1a8a8acbafc83cfa495b52c00ed4155312" kind="variable"><name>n</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a5849e85860177e7334aa4273f74c8f32" kind="variable"><name>a8</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a690b6cdae0726c448e6da15ca03817bd" kind="variable"><name>quotient8</name></member>
+    <member refid="structfaiss_1_1HammingComputerDefault_1a2653ab8230299d8f03f33c202a349850" kind="variable"><name>remainder8</name></member>
     <member refid="structfaiss_1_1HammingComputerDefault_1a7de248d27a0a9bad5f551206f1f7e87c" kind="function"><name>HammingComputerDefault</name></member>
     <member refid="structfaiss_1_1HammingComputerDefault_1a811e3f5db91b6a5f6eba731e514910fa" kind="function"><name>HammingComputerDefault</name></member>
     <member refid="structfaiss_1_1HammingComputerDefault_1a2738b8c53224a9d51df060d8efd062c8" kind="function"><name>set</name></member>
@@ -3950,6 +3952,7 @@
     <member refid="namespacefaiss_1a70eb5be4a6af3b9d948bcb8f949a4e9f" kind="variable"><name>distance_compute_blas_query_bs</name></member>
     <member refid="namespacefaiss_1acbd29d880c5aeaf1caf6266483253953" kind="variable"><name>distance_compute_blas_database_bs</name></member>
     <member refid="namespacefaiss_1a5ba348773d3fc46e3ea6f668c70bade1" kind="variable"><name>distance_compute_min_k_reservoir</name></member>
+    <member refid="namespacefaiss_1a7d8fdd4c4c76390042cc6916bdbe6b9e" kind="variable"><name>hamdis_tab_ham_bytes</name></member>
     <member refid="namespacefaiss_1a1c1a7ffff3e34768b027b77d0d9f96df" kind="variable"><name>hamming_batch_size</name></member>
     <member refid="namespacefaiss_1ae2bb09d8026f83d03936dcddee878a04" kind="variable"><name>partition_stats</name></member>
     <member refid="namespacefaiss_1a71dedb2a0d42fcaf8348a30112401069" kind="function"><name>clone_index</name></member>
@@ -4032,10 +4035,13 @@
     <member refid="namespacefaiss_1af860acfd5b9adbb6a50d4b458d0df8b7" kind="function"><name>hamming</name></member>
     <member refid="namespacefaiss_1a1d40aec5723474516de576263cc03048" kind="function"><name>heap_pop</name></member>
     <member refid="namespacefaiss_1acbe85976d4f73309622f6b62c4d7af2b" kind="function"><name>heap_push</name></member>
+    <member refid="namespacefaiss_1ae2b2237197d94a5414eef24eb7b93700" kind="function"><name>heap_replace_top</name></member>
     <member refid="namespacefaiss_1a6007eab1211f86326246114757ee8c41" kind="function"><name>minheap_pop</name></member>
     <member refid="namespacefaiss_1a34d5f3d2e6e58005727989c3b2def7fe" kind="function"><name>minheap_push</name></member>
+    <member refid="namespacefaiss_1a56261d03ad06ddadde7f9c8161c48f88" kind="function"><name>minheap_replace_top</name></member>
     <member refid="namespacefaiss_1af1853d9d3e0c4c0d3ebf204c1f50c30c" kind="function"><name>maxheap_pop</name></member>
     <member refid="namespacefaiss_1a8c87f0f0d3f96ede4b6cd031592aaed1" kind="function"><name>maxheap_push</name></member>
+    <member refid="namespacefaiss_1a0060a794c9aa0f221dec2ed996f4cab6" kind="function"><name>maxheap_replace_top</name></member>
     <member refid="namespacefaiss_1a8617ea308e081aed83d4a084a9d31f70" kind="function"><name>heap_heapify</name></member>
     <member refid="namespacefaiss_1a74010fa2ad110134f8b7c5e3af54a98b" kind="function"><name>minheap_heapify</name></member>
     <member refid="namespacefaiss_1ad80324df320ebcc1e5deecbe4e8626d0" kind="function"><name>maxheap_heapify</name></member>
