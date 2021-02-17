@@ -21,35 +21,33 @@
     <includedby refid="OnDiskInvertedLists_8h" local="no">faiss/invlists/OnDiskInvertedLists.h</includedby>
     <includedby refid="IVFlib_8h" local="no">faiss/IVFlib.h</includedby>
     <incdepgraph>
-      <node id="711">
+      <node id="712">
         <label>limits</label>
       </node>
-      <node id="705">
+      <node id="706">
         <label>faiss/impl/platform_macros.h</label>
       </node>
-      <node id="704">
+      <node id="705">
         <label>faiss/Clustering.h</label>
         <link refid="Clustering_8h_source"/>
-        <childnode refid="696" relation="include">
+        <childnode refid="697" relation="include">
         </childnode>
-        <childnode refid="693" relation="include">
+        <childnode refid="694" relation="include">
         </childnode>
       </node>
-      <node id="695">
+      <node id="696">
         <label>stdint.h</label>
       </node>
-      <node id="692">
+      <node id="693">
         <label>faiss/IndexIVF.h</label>
         <link refid="IndexIVF_8h"/>
-        <childnode refid="693" relation="include">
-        </childnode>
         <childnode refid="694" relation="include">
         </childnode>
         <childnode refid="695" relation="include">
         </childnode>
         <childnode refid="696" relation="include">
         </childnode>
-        <childnode refid="702" relation="include">
+        <childnode refid="697" relation="include">
         </childnode>
         <childnode refid="703" relation="include">
         </childnode>
@@ -59,77 +57,77 @@
         </childnode>
         <childnode refid="706" relation="include">
         </childnode>
-      </node>
-      <node id="702">
-        <label>faiss/invlists/InvertedLists.h</label>
-        <link refid="InvertedLists_8h_source"/>
-        <childnode refid="693" relation="include">
-        </childnode>
-        <childnode refid="696" relation="include">
-        </childnode>
-      </node>
-      <node id="709">
-        <label>cmath</label>
-      </node>
-      <node id="710">
-        <label>cassert</label>
-      </node>
-      <node id="700">
-        <label>string</label>
-      </node>
-      <node id="699">
-        <label>typeinfo</label>
-      </node>
-      <node id="698">
-        <label>cstdio</label>
-      </node>
-      <node id="693">
-        <label>vector</label>
-      </node>
-      <node id="701">
-        <label>sstream</label>
-      </node>
-      <node id="706">
-        <label>faiss/utils/Heap.h</label>
-        <link refid="Heap_8h_source"/>
         <childnode refid="707" relation="include">
         </childnode>
+      </node>
+      <node id="703">
+        <label>faiss/invlists/InvertedLists.h</label>
+        <link refid="InvertedLists_8h_source"/>
+        <childnode refid="694" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+      </node>
+      <node id="710">
+        <label>cmath</label>
+      </node>
+      <node id="711">
+        <label>cassert</label>
+      </node>
+      <node id="701">
+        <label>string</label>
+      </node>
+      <node id="700">
+        <label>typeinfo</label>
+      </node>
+      <node id="699">
+        <label>cstdio</label>
+      </node>
+      <node id="694">
+        <label>vector</label>
+      </node>
+      <node id="702">
+        <label>sstream</label>
+      </node>
+      <node id="707">
+        <label>faiss/utils/Heap.h</label>
+        <link refid="Heap_8h_source"/>
         <childnode refid="708" relation="include">
         </childnode>
         <childnode refid="709" relation="include">
         </childnode>
         <childnode refid="710" relation="include">
         </childnode>
-        <childnode refid="698" relation="include">
-        </childnode>
-        <childnode refid="695" relation="include">
-        </childnode>
         <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="713" relation="include">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>faiss/utils/ordered_key_value.h</label>
+        <link refid="ordered__key__value_8h_source"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
         </childnode>
         <childnode refid="712" relation="include">
         </childnode>
       </node>
-      <node id="712">
-        <label>faiss/utils/ordered_key_value.h</label>
-        <link refid="ordered__key__value_8h_source"/>
-        <childnode refid="707" relation="include">
-        </childnode>
-        <childnode refid="709" relation="include">
-        </childnode>
-        <childnode refid="711" relation="include">
-        </childnode>
-      </node>
-      <node id="694">
+      <node id="695">
         <label>unordered_map</label>
       </node>
-      <node id="707">
+      <node id="708">
         <label>climits</label>
       </node>
-      <node id="696">
+      <node id="697">
         <label>faiss/Index.h</label>
         <link refid="Index_8h_source"/>
-        <childnode refid="697" relation="include">
-        </childnode>
         <childnode refid="698" relation="include">
         </childnode>
         <childnode refid="699" relation="include">
@@ -138,38 +136,38 @@
         </childnode>
         <childnode refid="701" relation="include">
         </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
       </node>
-      <node id="697">
+      <node id="698">
         <label>faiss/MetricType.h</label>
         <link refid="MetricType_8h_source"/>
       </node>
-      <node id="703">
+      <node id="704">
         <label>faiss/invlists/DirectMap.h</label>
         <link refid="DirectMap_8h_source"/>
-        <childnode refid="702" relation="include">
+        <childnode refid="703" relation="include">
         </childnode>
-        <childnode refid="694" relation="include">
+        <childnode refid="695" relation="include">
         </childnode>
       </node>
-      <node id="708">
+      <node id="709">
         <label>cstring</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="720">
+      <node id="721">
         <label>faiss/IndexIVFPQ.h</label>
         <link refid="IndexIVFPQ_8h_source"/>
-        <childnode refid="721" relation="include">
-        </childnode>
         <childnode refid="722" relation="include">
         </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
       </node>
-      <node id="713">
+      <node id="714">
         <label>faiss/IndexIVF.h</label>
         <link refid="IndexIVF_8h"/>
-        <childnode refid="714" relation="include">
-        </childnode>
-        <childnode refid="717" relation="include">
+        <childnode refid="715" relation="include">
         </childnode>
         <childnode refid="718" relation="include">
         </childnode>
@@ -177,7 +175,7 @@
         </childnode>
         <childnode refid="720" relation="include">
         </childnode>
-        <childnode refid="723" relation="include">
+        <childnode refid="721" relation="include">
         </childnode>
         <childnode refid="724" relation="include">
         </childnode>
@@ -185,56 +183,58 @@
         </childnode>
         <childnode refid="726" relation="include">
         </childnode>
+        <childnode refid="727" relation="include">
+        </childnode>
       </node>
-      <node id="716">
+      <node id="717">
         <label>faiss/IndexHNSW.h</label>
         <link refid="IndexHNSW_8h_source"/>
       </node>
-      <node id="723">
+      <node id="724">
         <label>faiss/IndexIVFSpectralHash.h</label>
         <link refid="IndexIVFSpectralHash_8h_source"/>
       </node>
-      <node id="719">
+      <node id="720">
         <label>faiss/IndexIVFFlat.h</label>
         <link refid="IndexIVFFlat_8h_source"/>
       </node>
-      <node id="725">
+      <node id="726">
         <label>faiss/invlists/OnDiskInvertedLists.h</label>
         <link refid="OnDiskInvertedLists_8h_source"/>
       </node>
-      <node id="724">
+      <node id="725">
         <label>faiss/IndexLattice.h</label>
         <link refid="IndexLattice_8h_source"/>
       </node>
-      <node id="718">
+      <node id="719">
         <label>faiss/IndexBinaryIVF.h</label>
         <link refid="IndexBinaryIVF_8h_source"/>
       </node>
-      <node id="714">
+      <node id="715">
         <label>faiss/IndexScalarQuantizer.h</label>
         <link refid="IndexScalarQuantizer_8h_source"/>
-        <childnode refid="715" relation="include">
-        </childnode>
         <childnode refid="716" relation="include">
         </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
       </node>
-      <node id="721">
+      <node id="722">
         <label>faiss/IndexIVFPQFastScan.h</label>
         <link refid="IndexIVFPQFastScan_8h_source"/>
       </node>
-      <node id="717">
+      <node id="718">
         <label>faiss/Index2Layer.h</label>
         <link refid="Index2Layer_8h_source"/>
       </node>
-      <node id="722">
+      <node id="723">
         <label>faiss/IndexIVFPQR.h</label>
         <link refid="IndexIVFPQR_8h_source"/>
       </node>
-      <node id="715">
+      <node id="716">
         <label>faiss/gpu/GpuIndexIVFScalarQuantizer.h</label>
         <link refid="GpuIndexIVFScalarQuantizer_8h_source"/>
       </node>
-      <node id="726">
+      <node id="727">
         <label>faiss/IVFlib.h</label>
         <link refid="IVFlib_8h_source"/>
       </node>

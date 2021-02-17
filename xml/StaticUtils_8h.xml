@@ -4,13 +4,13 @@
     <compoundname>StaticUtils.h</compoundname>
     <includes local="no">cuda.h</includes>
     <incdepgraph>
-      <node id="413">
+      <node id="414">
         <label>faiss/gpu/utils/StaticUtils.h</label>
         <link refid="StaticUtils_8h"/>
-        <childnode refid="414" relation="include">
+        <childnode refid="415" relation="include">
         </childnode>
       </node>
-      <node id="414">
+      <node id="415">
         <label>cuda.h</label>
       </node>
     </incdepgraph>

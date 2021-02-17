@@ -6,96 +6,94 @@
     <includes refid="IndexScalarQuantizer_8h" local="no">faiss/IndexScalarQuantizer.h</includes>
     <includes local="no">memory</includes>
     <incdepgraph>
-      <node id="215">
+      <node id="216">
         <label>faiss/gpu/GpuIndexIVF.h</label>
         <link refid="GpuIndexIVF_8h_source"/>
-        <childnode refid="216" relation="include">
-        </childnode>
-        <childnode refid="230" relation="include">
+        <childnode refid="217" relation="include">
         </childnode>
         <childnode refid="231" relation="include">
         </childnode>
         <childnode refid="232" relation="include">
         </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
       </node>
-      <node id="245">
+      <node id="246">
         <label>limits</label>
       </node>
-      <node id="239">
+      <node id="240">
         <label>faiss/impl/platform_macros.h</label>
       </node>
-      <node id="226">
+      <node id="227">
         <label>cublas_v2.h</label>
       </node>
-      <node id="232">
+      <node id="233">
         <label>faiss/Clustering.h</label>
         <link refid="Clustering_8h_source"/>
-        <childnode refid="217" relation="include">
+        <childnode refid="218" relation="include">
         </childnode>
-        <childnode refid="229" relation="include">
+        <childnode refid="230" relation="include">
         </childnode>
-      </node>
-      <node id="234">
-        <label>stdint.h</label>
       </node>
       <node id="235">
+        <label>stdint.h</label>
+      </node>
+      <node id="236">
         <label>faiss/IndexIVF.h</label>
         <link refid="IndexIVF_8h_source"/>
-        <childnode refid="229" relation="include">
-        </childnode>
-        <childnode refid="236" relation="include">
-        </childnode>
-        <childnode refid="234" relation="include">
-        </childnode>
-        <childnode refid="217" relation="include">
+        <childnode refid="230" relation="include">
         </childnode>
         <childnode refid="237" relation="include">
         </childnode>
-        <childnode refid="238" relation="include">
+        <childnode refid="235" relation="include">
         </childnode>
-        <childnode refid="232" relation="include">
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
         </childnode>
         <childnode refid="239" relation="include">
         </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
         <childnode refid="240" relation="include">
         </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
       </node>
-      <node id="237">
+      <node id="238">
         <label>faiss/invlists/InvertedLists.h</label>
         <link refid="InvertedLists_8h_source"/>
-        <childnode refid="229" relation="include">
+        <childnode refid="230" relation="include">
         </childnode>
-        <childnode refid="217" relation="include">
+        <childnode refid="218" relation="include">
         </childnode>
       </node>
-      <node id="225">
+      <node id="226">
         <label>cuda_runtime.h</label>
       </node>
-      <node id="230">
+      <node id="231">
         <label>faiss/gpu/GpuIndexFlat.h</label>
         <link refid="GpuIndexFlat_8h_source"/>
-        <childnode refid="216" relation="include">
+        <childnode refid="217" relation="include">
         </childnode>
-        <childnode refid="227" relation="include">
+        <childnode refid="228" relation="include">
         </childnode>
-      </node>
-      <node id="243">
-        <label>cmath</label>
       </node>
       <node id="244">
+        <label>cmath</label>
+      </node>
+      <node id="245">
         <label>cassert</label>
       </node>
-      <node id="221">
+      <node id="222">
         <label>string</label>
       </node>
-      <node id="224">
+      <node id="225">
         <label>faiss/impl/FaissAssert.h</label>
       </node>
-      <node id="223">
+      <node id="224">
         <label>faiss/gpu/GpuResources.h</label>
         <link refid="GpuResources_8h_source"/>
-        <childnode refid="224" relation="include">
-        </childnode>
         <childnode refid="225" relation="include">
         </childnode>
         <childnode refid="226" relation="include">
@@ -106,92 +104,92 @@
         </childnode>
         <childnode refid="229" relation="include">
         </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
       </node>
-      <node id="220">
+      <node id="221">
         <label>typeinfo</label>
       </node>
-      <node id="219">
+      <node id="220">
         <label>cstdio</label>
       </node>
-      <node id="231">
+      <node id="232">
         <label>faiss/gpu/GpuIndicesOptions.h</label>
         <link refid="GpuIndicesOptions_8h_source"/>
       </node>
-      <node id="229">
+      <node id="230">
         <label>vector</label>
       </node>
-      <node id="228">
+      <node id="229">
         <label>utility</label>
       </node>
-      <node id="222">
+      <node id="223">
         <label>sstream</label>
       </node>
-      <node id="240">
+      <node id="241">
         <label>faiss/utils/Heap.h</label>
         <link refid="Heap_8h_source"/>
-        <childnode refid="241" relation="include">
-        </childnode>
         <childnode refid="242" relation="include">
         </childnode>
         <childnode refid="243" relation="include">
         </childnode>
         <childnode refid="244" relation="include">
         </childnode>
-        <childnode refid="219" relation="include">
-        </childnode>
-        <childnode refid="234" relation="include">
-        </childnode>
         <childnode refid="245" relation="include">
         </childnode>
-        <childnode refid="246" relation="include">
-        </childnode>
-      </node>
-      <node id="246">
-        <label>faiss/utils/ordered_key_value.h</label>
-        <link refid="ordered__key__value_8h_source"/>
-        <childnode refid="241" relation="include">
-        </childnode>
-        <childnode refid="243" relation="include">
-        </childnode>
-        <childnode refid="245" relation="include">
-        </childnode>
-      </node>
-      <node id="233">
-        <label>faiss/IndexScalarQuantizer.h</label>
-        <link refid="IndexScalarQuantizer_8h_source"/>
-        <childnode refid="234" relation="include">
-        </childnode>
-        <childnode refid="229" relation="include">
+        <childnode refid="220" relation="include">
         </childnode>
         <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
         </childnode>
         <childnode refid="247" relation="include">
         </childnode>
       </node>
       <node id="247">
+        <label>faiss/utils/ordered_key_value.h</label>
+        <link refid="ordered__key__value_8h_source"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>faiss/IndexScalarQuantizer.h</label>
+        <link refid="IndexScalarQuantizer_8h_source"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
         <label>faiss/impl/ScalarQuantizer.h</label>
       </node>
-      <node id="236">
+      <node id="237">
         <label>unordered_map</label>
       </node>
-      <node id="214">
+      <node id="215">
         <label>faiss/gpu/GpuIndexIVFScalarQuantizer.h</label>
         <link refid="GpuIndexIVFScalarQuantizer_8h"/>
-        <childnode refid="215" relation="include">
+        <childnode refid="216" relation="include">
         </childnode>
-        <childnode refid="233" relation="include">
+        <childnode refid="234" relation="include">
         </childnode>
-        <childnode refid="227" relation="include">
+        <childnode refid="228" relation="include">
         </childnode>
       </node>
-      <node id="241">
+      <node id="242">
         <label>climits</label>
       </node>
-      <node id="217">
+      <node id="218">
         <label>faiss/Index.h</label>
         <link refid="Index_8h_source"/>
-        <childnode refid="218" relation="include">
-        </childnode>
         <childnode refid="219" relation="include">
         </childnode>
         <childnode refid="220" relation="include">
@@ -200,31 +198,33 @@
         </childnode>
         <childnode refid="222" relation="include">
         </childnode>
-      </node>
-      <node id="218">
-        <label>faiss/MetricType.h</label>
-        <link refid="MetricType_8h_source"/>
-      </node>
-      <node id="216">
-        <label>faiss/gpu/GpuIndex.h</label>
-        <link refid="GpuIndex_8h_source"/>
-        <childnode refid="217" relation="include">
-        </childnode>
         <childnode refid="223" relation="include">
         </childnode>
       </node>
-      <node id="238">
+      <node id="219">
+        <label>faiss/MetricType.h</label>
+        <link refid="MetricType_8h_source"/>
+      </node>
+      <node id="217">
+        <label>faiss/gpu/GpuIndex.h</label>
+        <link refid="GpuIndex_8h_source"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="239">
         <label>faiss/invlists/DirectMap.h</label>
         <link refid="DirectMap_8h_source"/>
+        <childnode refid="238" relation="include">
+        </childnode>
         <childnode refid="237" relation="include">
         </childnode>
-        <childnode refid="236" relation="include">
-        </childnode>
       </node>
-      <node id="242">
+      <node id="243">
         <label>cstring</label>
       </node>
-      <node id="227">
+      <node id="228">
         <label>memory</label>
       </node>
     </incdepgraph>

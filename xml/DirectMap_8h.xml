@@ -6,37 +6,35 @@
     <includes local="no">unordered_map</includes>
     <includedby refid="IndexIVF_8h" local="no">faiss/IndexIVF.h</includedby>
     <incdepgraph>
-      <node id="1033">
+      <node id="1034">
         <label>faiss/invlists/InvertedLists.h</label>
         <link refid="InvertedLists_8h_source"/>
-        <childnode refid="1034" relation="include">
-        </childnode>
         <childnode refid="1035" relation="include">
         </childnode>
-      </node>
-      <node id="1039">
-        <label>string</label>
-      </node>
-      <node id="1038">
-        <label>typeinfo</label>
-      </node>
-      <node id="1037">
-        <label>cstdio</label>
-      </node>
-      <node id="1034">
-        <label>vector</label>
-      </node>
-      <node id="1040">
-        <label>sstream</label>
-      </node>
-      <node id="1041">
-        <label>unordered_map</label>
-      </node>
-      <node id="1035">
-        <label>faiss/Index.h</label>
-        <link refid="Index_8h_source"/>
         <childnode refid="1036" relation="include">
         </childnode>
+      </node>
+      <node id="1040">
+        <label>string</label>
+      </node>
+      <node id="1039">
+        <label>typeinfo</label>
+      </node>
+      <node id="1038">
+        <label>cstdio</label>
+      </node>
+      <node id="1035">
+        <label>vector</label>
+      </node>
+      <node id="1041">
+        <label>sstream</label>
+      </node>
+      <node id="1042">
+        <label>unordered_map</label>
+      </node>
+      <node id="1036">
+        <label>faiss/Index.h</label>
+        <link refid="Index_8h_source"/>
         <childnode refid="1037" relation="include">
         </childnode>
         <childnode refid="1038" relation="include">
@@ -45,35 +43,35 @@
         </childnode>
         <childnode refid="1040" relation="include">
         </childnode>
+        <childnode refid="1041" relation="include">
+        </childnode>
       </node>
-      <node id="1036">
+      <node id="1037">
         <label>faiss/MetricType.h</label>
         <link refid="MetricType_8h_source"/>
       </node>
-      <node id="1032">
+      <node id="1033">
         <label>faiss/invlists/DirectMap.h</label>
         <link refid="DirectMap_8h"/>
-        <childnode refid="1033" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
-        <childnode refid="1041" relation="include">
+        <childnode refid="1042" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1050">
+      <node id="1051">
         <label>faiss/IndexIVFPQ.h</label>
         <link refid="IndexIVFPQ_8h_source"/>
-        <childnode refid="1051" relation="include">
-        </childnode>
         <childnode refid="1052" relation="include">
         </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
       </node>
-      <node id="1043">
+      <node id="1044">
         <label>faiss/IndexIVF.h</label>
         <link refid="IndexIVF_8h_source"/>
-        <childnode refid="1044" relation="include">
-        </childnode>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1045" relation="include">
         </childnode>
         <childnode refid="1048" relation="include">
         </childnode>
@@ -81,7 +79,7 @@
         </childnode>
         <childnode refid="1050" relation="include">
         </childnode>
-        <childnode refid="1053" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
         <childnode refid="1054" relation="include">
         </childnode>
@@ -89,62 +87,64 @@
         </childnode>
         <childnode refid="1056" relation="include">
         </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
       </node>
-      <node id="1046">
+      <node id="1047">
         <label>faiss/IndexHNSW.h</label>
         <link refid="IndexHNSW_8h_source"/>
       </node>
-      <node id="1053">
+      <node id="1054">
         <label>faiss/IndexIVFSpectralHash.h</label>
         <link refid="IndexIVFSpectralHash_8h_source"/>
       </node>
-      <node id="1049">
+      <node id="1050">
         <label>faiss/IndexIVFFlat.h</label>
         <link refid="IndexIVFFlat_8h_source"/>
       </node>
-      <node id="1055">
+      <node id="1056">
         <label>faiss/invlists/OnDiskInvertedLists.h</label>
         <link refid="OnDiskInvertedLists_8h_source"/>
       </node>
-      <node id="1054">
+      <node id="1055">
         <label>faiss/IndexLattice.h</label>
         <link refid="IndexLattice_8h_source"/>
       </node>
-      <node id="1048">
+      <node id="1049">
         <label>faiss/IndexBinaryIVF.h</label>
         <link refid="IndexBinaryIVF_8h_source"/>
       </node>
-      <node id="1044">
+      <node id="1045">
         <label>faiss/IndexScalarQuantizer.h</label>
         <link refid="IndexScalarQuantizer_8h_source"/>
-        <childnode refid="1045" relation="include">
-        </childnode>
         <childnode refid="1046" relation="include">
         </childnode>
+        <childnode refid="1047" relation="include">
+        </childnode>
       </node>
-      <node id="1051">
+      <node id="1052">
         <label>faiss/IndexIVFPQFastScan.h</label>
         <link refid="IndexIVFPQFastScan_8h_source"/>
       </node>
-      <node id="1047">
+      <node id="1048">
         <label>faiss/Index2Layer.h</label>
         <link refid="Index2Layer_8h_source"/>
       </node>
-      <node id="1052">
+      <node id="1053">
         <label>faiss/IndexIVFPQR.h</label>
         <link refid="IndexIVFPQR_8h_source"/>
       </node>
-      <node id="1045">
+      <node id="1046">
         <label>faiss/gpu/GpuIndexIVFScalarQuantizer.h</label>
         <link refid="GpuIndexIVFScalarQuantizer_8h_source"/>
       </node>
-      <node id="1042">
+      <node id="1043">
         <label>faiss/invlists/DirectMap.h</label>
         <link refid="DirectMap_8h"/>
-        <childnode refid="1043" relation="include">
+        <childnode refid="1044" relation="include">
         </childnode>
       </node>
-      <node id="1056">
+      <node id="1057">
         <label>faiss/IVFlib.h</label>
         <link refid="IVFlib_8h_source"/>
       </node>

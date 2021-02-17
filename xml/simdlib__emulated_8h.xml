@@ -9,20 +9,18 @@
     <includes local="no">algorithm</includes>
     <includedby refid="simdlib_8h" local="no">faiss/utils/simdlib.h</includedby>
     <incdepgraph>
-      <node id="1377">
+      <node id="1378">
         <label>functional</label>
       </node>
-      <node id="1375">
+      <node id="1376">
         <label>cstdint</label>
       </node>
-      <node id="1374">
+      <node id="1375">
         <label>string</label>
       </node>
-      <node id="1373">
+      <node id="1374">
         <label>faiss/utils/simdlib_emulated.h</label>
         <link refid="simdlib__emulated_8h"/>
-        <childnode refid="1374" relation="include">
-        </childnode>
         <childnode refid="1375" relation="include">
         </childnode>
         <childnode refid="1376" relation="include">
@@ -31,22 +29,24 @@
         </childnode>
         <childnode refid="1378" relation="include">
         </childnode>
+        <childnode refid="1379" relation="include">
+        </childnode>
       </node>
-      <node id="1378">
+      <node id="1379">
         <label>algorithm</label>
       </node>
-      <node id="1376">
+      <node id="1377">
         <label>cstring</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1379">
+      <node id="1380">
         <label>faiss/utils/simdlib_emulated.h</label>
         <link refid="simdlib__emulated_8h"/>
-        <childnode refid="1380" relation="include">
+        <childnode refid="1381" relation="include">
         </childnode>
       </node>
-      <node id="1380">
+      <node id="1381">
         <label>faiss/utils/simdlib.h</label>
         <link refid="simdlib_8h_source"/>
       </node>

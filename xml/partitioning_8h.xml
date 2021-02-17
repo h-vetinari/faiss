@@ -6,23 +6,23 @@
     <includes local="no">stdio.h</includes>
     <includes local="no">faiss/impl/platform_macros.h</includes>
     <incdepgraph>
-      <node id="1349">
+      <node id="1350">
         <label>faiss/impl/platform_macros.h</label>
       </node>
-      <node id="1347">
+      <node id="1348">
         <label>stdint.h</label>
       </node>
-      <node id="1346">
+      <node id="1347">
         <label>faiss/utils/partitioning.h</label>
         <link refid="partitioning_8h"/>
-        <childnode refid="1347" relation="include">
-        </childnode>
         <childnode refid="1348" relation="include">
         </childnode>
         <childnode refid="1349" relation="include">
         </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
       </node>
-      <node id="1348">
+      <node id="1349">
         <label>stdio.h</label>
       </node>
     </incdepgraph>

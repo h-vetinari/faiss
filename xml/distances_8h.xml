@@ -6,39 +6,37 @@
     <includes refid="Heap_8h" local="no">faiss/utils/Heap.h</includes>
     <includes local="no">faiss/impl/platform_macros.h</includes>
     <incdepgraph>
-      <node id="1246">
+      <node id="1247">
         <label>faiss/utils/distances.h</label>
         <link refid="distances_8h"/>
-        <childnode refid="1247" relation="include">
-        </childnode>
         <childnode refid="1248" relation="include">
         </childnode>
-        <childnode refid="1256" relation="include">
-        </childnode>
-      </node>
-      <node id="1254">
-        <label>limits</label>
-      </node>
-      <node id="1256">
-        <label>faiss/impl/platform_macros.h</label>
-      </node>
-      <node id="1247">
-        <label>stdint.h</label>
-      </node>
-      <node id="1251">
-        <label>cmath</label>
-      </node>
-      <node id="1252">
-        <label>cassert</label>
-      </node>
-      <node id="1253">
-        <label>cstdio</label>
-      </node>
-      <node id="1248">
-        <label>faiss/utils/Heap.h</label>
-        <link refid="Heap_8h_source"/>
         <childnode refid="1249" relation="include">
         </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1255">
+        <label>limits</label>
+      </node>
+      <node id="1257">
+        <label>faiss/impl/platform_macros.h</label>
+      </node>
+      <node id="1248">
+        <label>stdint.h</label>
+      </node>
+      <node id="1252">
+        <label>cmath</label>
+      </node>
+      <node id="1253">
+        <label>cassert</label>
+      </node>
+      <node id="1254">
+        <label>cstdio</label>
+      </node>
+      <node id="1249">
+        <label>faiss/utils/Heap.h</label>
+        <link refid="Heap_8h_source"/>
         <childnode refid="1250" relation="include">
         </childnode>
         <childnode refid="1251" relation="include">
@@ -47,27 +45,29 @@
         </childnode>
         <childnode refid="1253" relation="include">
         </childnode>
-        <childnode refid="1247" relation="include">
-        </childnode>
         <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>faiss/utils/ordered_key_value.h</label>
+        <link refid="ordered__key__value_8h_source"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1252" relation="include">
         </childnode>
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1255">
-        <label>faiss/utils/ordered_key_value.h</label>
-        <link refid="ordered__key__value_8h_source"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-        <childnode refid="1251" relation="include">
-        </childnode>
-        <childnode refid="1254" relation="include">
-        </childnode>
-      </node>
-      <node id="1249">
+      <node id="1250">
         <label>climits</label>
       </node>
-      <node id="1250">
+      <node id="1251">
         <label>cstring</label>
       </node>
     </incdepgraph>

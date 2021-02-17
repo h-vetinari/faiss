@@ -4,13 +4,13 @@
     <compoundname>hamming-inl.h</compoundname>
     <includedby refid="hamming_8h" local="no">faiss/utils/hamming.h</includedby>
     <invincdepgraph>
-      <node id="1275">
+      <node id="1276">
         <label>faiss/utils/hamming-inl.h</label>
         <link refid="hamming-inl_8h"/>
-        <childnode refid="1276" relation="include">
+        <childnode refid="1277" relation="include">
         </childnode>
       </node>
-      <node id="1276">
+      <node id="1277">
         <label>faiss/utils/hamming.h</label>
         <link refid="hamming_8h_source"/>
       </node>
