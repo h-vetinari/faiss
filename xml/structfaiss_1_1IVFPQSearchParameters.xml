@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="24" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="24" bodyend="-1"/>
+        <location file="faiss/IndexIVFPQ.h" line="23" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1IVFPQSearchParameters_1a66ff24d0f4fd606488ded44354a8a6cf" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="25" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="25" bodyend="-1"/>
+        <location file="faiss/IndexIVFPQ.h" line="24" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1IVFSearchParameters_1a1183c0b7d9ffd5154b32765175f2a9cc" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="70" column="1" bodyfile="faiss/IndexIVF.h" bodystart="70" bodyend="-1"/>
+        <location file="faiss/IndexIVF.h" line="66" column="1" bodyfile="faiss/IndexIVF.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1IVFSearchParameters_1ac3e01728f6376ad727340525b2138782" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="71" column="1" bodyfile="faiss/IndexIVF.h" bodystart="71" bodyend="-1"/>
+        <location file="faiss/IndexIVF.h" line="67" column="1" bodyfile="faiss/IndexIVF.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="26" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="26" bodyend="26"/>
+        <location file="faiss/IndexIVFPQ.h" line="25" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="structfaiss_1_1IVFPQSearchParameters_1a233675559ed182bd59490cad0641ca8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="27" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="27" bodyend="27"/>
+        <location file="faiss/IndexIVFPQ.h" line="26" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="26" bodyend="26"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -90,30 +90,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="654">
+      <node id="667">
         <label>faiss::IVFSearchParameters</label>
         <link refid="structfaiss_1_1IVFSearchParameters"/>
       </node>
-      <node id="653">
+      <node id="666">
         <label>faiss::IVFPQSearchParameters</label>
         <link refid="structfaiss_1_1IVFPQSearchParameters"/>
-        <childnode refid="654" relation="public-inheritance">
+        <childnode refid="667" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="656">
+      <node id="669">
         <label>faiss::IVFSearchParameters</label>
         <link refid="structfaiss_1_1IVFSearchParameters"/>
       </node>
-      <node id="655">
+      <node id="668">
         <label>faiss::IVFPQSearchParameters</label>
         <link refid="structfaiss_1_1IVFPQSearchParameters"/>
-        <childnode refid="656" relation="public-inheritance">
+        <childnode refid="669" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="faiss/IndexIVFPQ.h" line="23" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="23" bodyend="28"/>
+    <location file="faiss/IndexIVFPQ.h" line="22" column="1" bodyfile="faiss/IndexIVFPQ.h" bodystart="22" bodyend="27"/>
     <listofallmembers>
       <member refid="structfaiss_1_1IVFPQSearchParameters_1abb58e8a6e58752abee118760b48e7d7e" prot="public" virt="non-virtual"><scope>faiss::IVFPQSearchParameters</scope><name>IVFPQSearchParameters</name></member>
       <member refid="structfaiss_1_1IVFSearchParameters_1a176fda7175cf94806caac1e553e151e3" prot="public" virt="non-virtual"><scope>faiss::IVFPQSearchParameters</scope><name>IVFSearchParameters</name></member>

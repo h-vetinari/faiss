@@ -71,6 +71,8 @@
     <innerclass refid="structfaiss_1_1IndexIVFStats" prot="public">faiss::IndexIVFStats</innerclass>
     <innerclass refid="structfaiss_1_1IndexLattice" prot="public">faiss::IndexLattice</innerclass>
     <innerclass refid="structfaiss_1_1IndexLSH" prot="public">faiss::IndexLSH</innerclass>
+    <innerclass refid="structfaiss_1_1IndexNNDescent" prot="public">faiss::IndexNNDescent</innerclass>
+    <innerclass refid="structfaiss_1_1IndexNNDescentFlat" prot="public">faiss::IndexNNDescentFlat</innerclass>
     <innerclass refid="structfaiss_1_1IndexPQ" prot="public">faiss::IndexPQ</innerclass>
     <innerclass refid="structfaiss_1_1IndexPQFastScan" prot="public">faiss::IndexPQFastScan</innerclass>
     <innerclass refid="structfaiss_1_1IndexPQStats" prot="public">faiss::IndexPQStats</innerclass>
@@ -209,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="79" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="79" bodyend="-1"/>
+        <location file="faiss/IndexReplicas.h" line="85" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a08035b3de4260d681099add5203fc045" prot="public" static="no">
         <type><ref refid="classfaiss_1_1IndexReplicasTemplate" kindref="compound">IndexReplicasTemplate</ref>&lt; <ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> &gt;</type>
@@ -222,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="80" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="80" bodyend="-1"/>
+        <location file="faiss/IndexReplicas.h" line="86" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1aa4027ffe4b83be8ed0ad09c287853d17" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexShardsTemplate" kindref="compound">IndexShardsTemplate</ref>&lt; <ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> &gt;</type>
@@ -235,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexShards.h" line="95" column="1" bodyfile="faiss/IndexShards.h" bodystart="95" bodyend="-1"/>
+        <location file="faiss/IndexShards.h" line="108" column="1" bodyfile="faiss/IndexShards.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a1e3dccddbd9b1cbe722804bbb9b2fa99" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexShardsTemplate" kindref="compound">IndexShardsTemplate</ref>&lt; <ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> &gt;</type>
@@ -248,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexShards.h" line="96" column="1" bodyfile="faiss/IndexShards.h" bodystart="96" bodyend="-1"/>
+        <location file="faiss/IndexShards.h" line="109" column="1" bodyfile="faiss/IndexShards.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a6e5511ff3f78bfcab1530a6f215846c6" prot="public" static="no">
         <type><ref refid="structfaiss_1_1HStackInvertedLists" kindref="compound">HStackInvertedLists</ref></type>
@@ -261,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/invlists/InvertedLists.h" line="257" column="1" bodyfile="faiss/invlists/InvertedLists.h" bodystart="257" bodyend="-1"/>
+        <location file="faiss/invlists/InvertedLists.h" line="269" column="1" bodyfile="faiss/invlists/InvertedLists.h" bodystart="269" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a73b36a88d6db5db6a15d165150e54348" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexIDMapTemplate" kindref="compound">IndexIDMapTemplate</ref>&lt; <ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> &gt;</type>
@@ -274,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/MetaIndexes.h" line="59" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="59" bodyend="-1"/>
+        <location file="faiss/MetaIndexes.h" line="68" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a0fcd5b438dc8ed29fe802c9f86b5ed03" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexIDMapTemplate" kindref="compound">IndexIDMapTemplate</ref>&lt; <ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> &gt;</type>
@@ -287,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/MetaIndexes.h" line="60" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="60" bodyend="-1"/>
+        <location file="faiss/MetaIndexes.h" line="69" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1aa08ba3d567937ac89a8a7e96ede18bc2" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexIDMap2Template" kindref="compound">IndexIDMap2Template</ref>&lt; <ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> &gt;</type>
@@ -300,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/MetaIndexes.h" line="88" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="88" bodyend="-1"/>
+        <location file="faiss/MetaIndexes.h" line="97" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1abb449fb7eb62ff35c48165c965621d10" prot="public" static="no">
         <type><ref refid="structfaiss_1_1IndexIDMap2Template" kindref="compound">IndexIDMap2Template</ref>&lt; <ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> &gt;</type>
@@ -313,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/MetaIndexes.h" line="89" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="89" bodyend="-1"/>
+        <location file="faiss/MetaIndexes.h" line="98" column="1" bodyfile="faiss/MetaIndexes.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1ae0c5f7d2638acf960a3b98e7fd8c1167" prot="public" static="no">
         <type><ref refid="structfaiss_1_1HeapArray" kindref="compound">HeapArray</ref>&lt; <ref refid="structfaiss_1_1CMin" kindref="compound">CMin</ref>&lt; float, int64_t &gt; &gt;</type>
@@ -326,7 +328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="411" column="1" bodyfile="faiss/utils/Heap.h" bodystart="411" bodyend="-1"/>
+        <location file="faiss/utils/Heap.h" line="412" column="1" bodyfile="faiss/utils/Heap.h" bodystart="412" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a17c03ceef680b86f30abf40c359f0b6c" prot="public" static="no">
         <type><ref refid="structfaiss_1_1HeapArray" kindref="compound">HeapArray</ref>&lt; <ref refid="structfaiss_1_1CMin" kindref="compound">CMin</ref>&lt; int, int64_t &gt; &gt;</type>
@@ -339,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="412" column="1" bodyfile="faiss/utils/Heap.h" bodystart="412" bodyend="-1"/>
+        <location file="faiss/utils/Heap.h" line="413" column="1" bodyfile="faiss/utils/Heap.h" bodystart="413" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a3d829413dc05d84f9564a4fa8d831456" prot="public" static="no">
         <type><ref refid="structfaiss_1_1HeapArray" kindref="compound">HeapArray</ref>&lt; <ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref>&lt; float, int64_t &gt; &gt;</type>
@@ -352,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="414" column="1" bodyfile="faiss/utils/Heap.h" bodystart="414" bodyend="-1"/>
+        <location file="faiss/utils/Heap.h" line="415" column="1" bodyfile="faiss/utils/Heap.h" bodystart="415" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacefaiss_1a4bd3ab42c7aaf074f798553a68eacd52" prot="public" static="no">
         <type><ref refid="structfaiss_1_1HeapArray" kindref="compound">HeapArray</ref>&lt; <ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref>&lt; int, int64_t &gt; &gt;</type>
@@ -365,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="415" column="1" bodyfile="faiss/utils/Heap.h" bodystart="415" bodyend="-1"/>
+        <location file="faiss/utils/Heap.h" line="416" column="1" bodyfile="faiss/utils/Heap.h" bodystart="416" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -381,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="48" column="1" bodyfile="faiss/index_io.h" bodystart="48" bodyend="-1"/>
+        <location file="faiss/index_io.h" line="47" column="1" bodyfile="faiss/index_io.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a0afd2e723c83893be7aff1fa644d13b3" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -395,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="51" column="1" bodyfile="faiss/index_io.h" bodystart="51" bodyend="-1"/>
+        <location file="faiss/index_io.h" line="50" column="1" bodyfile="faiss/index_io.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1af2f70735b00d2defcffa4c051830fd9f" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -409,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="53" column="1" bodyfile="faiss/index_io.h" bodystart="53" bodyend="-1"/>
+        <location file="faiss/index_io.h" line="52" column="1" bodyfile="faiss/index_io.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1aff97660fb0994bea32b9c4714e324fa0" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -436,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexBinaryHash.h" line="75" column="1"/>
+        <location file="faiss/IndexBinaryHash.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a28374b20fb3fd40e3abc21c78135c3a7" prot="public" static="no" mutable="no">
         <type>FAISS_API <ref refid="structfaiss_1_1IndexIVFStats" kindref="compound">IndexIVFStats</ref></type>
@@ -449,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="377" column="1"/>
+        <location file="faiss/IndexIVF.h" line="412" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a4597bfef2dd25b76afe4a11f63aaf168" prot="public" static="no" mutable="no">
         <type>FAISS_API size_t</type>
@@ -462,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="32" column="1"/>
+        <location file="faiss/IndexIVFPQ.h" line="29" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1ae040bf76054f16979b15559f8ffc5727" prot="public" static="no" mutable="no">
         <type>FAISS_API <ref refid="structfaiss_1_1IndexIVFPQStats" kindref="compound">IndexIVFPQStats</ref></type>
@@ -475,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="170" column="1"/>
+        <location file="faiss/IndexIVFPQ.h" line="182" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a3aebb977a33e268e5eddf7ad361598f9" prot="public" static="no" mutable="no">
         <type>FAISS_API <ref refid="structfaiss_1_1IVFFastScanStats" kindref="compound">IVFFastScanStats</ref></type>
@@ -488,7 +490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQFastScan.h" line="163" column="1"/>
+        <location file="faiss/IndexIVFPQFastScan.h" line="189" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a386cc28ead8e63ddabac9f1f9be8ff7e" prot="public" static="no" mutable="no">
         <type>FAISS_API <ref refid="structfaiss_1_1IndexPQStats" kindref="compound">IndexPQStats</ref></type>
@@ -514,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexPQFastScan.h" line="109" column="1"/>
+        <location file="faiss/IndexPQFastScan.h" line="123" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a9875918581ad243ce5483a090c9da918" prot="public" static="no" mutable="no">
         <type>FAISS_API int</type>
@@ -527,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="157" column="1"/>
+        <location file="faiss/utils/distances.h" line="158" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a70eb5be4a6af3b9d948bcb8f949a4e9f" prot="public" static="no" mutable="no">
         <type>FAISS_API int</type>
@@ -540,7 +542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="160" column="1"/>
+        <location file="faiss/utils/distances.h" line="161" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1acbd29d880c5aeaf1caf6266483253953" prot="public" static="no" mutable="no">
         <type>FAISS_API int</type>
@@ -553,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="161" column="1"/>
+        <location file="faiss/utils/distances.h" line="162" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a5ba348773d3fc46e3ea6f668c70bade1" prot="public" static="no" mutable="no">
         <type>FAISS_API int</type>
@@ -566,7 +568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="165" column="1"/>
+        <location file="faiss/utils/distances.h" line="166" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1a7d8fdd4c4c76390042cc6916bdbe6b9e" prot="public" static="no" mutable="no">
         <type>const uint8_t</type>
@@ -592,7 +594,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="113" column="1"/>
+        <location file="faiss/utils/hamming.h" line="100" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacefaiss_1ae2bb09d8026f83d03936dcddee878a04" prot="public" static="no" mutable="no">
         <type>FAISS_API <ref refid="structfaiss_1_1PartitionStats" kindref="compound">PartitionStats</ref></type>
@@ -605,7 +607,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/partitioning.h" line="64" column="1"/>
+        <location file="faiss/utils/partitioning.h" line="72" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -623,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/clone_index.h" line="24" column="1"/>
+        <location file="faiss/clone_index.h" line="21" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a38bd0dde8a1b229201a5fcb64d05daa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -693,7 +695,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/Clustering.h" line="120" column="1"/>
+        <location file="faiss/Clustering.h" line="123" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aca8ad1aa3df4582ddb46b41db8285b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> *</type>
@@ -740,7 +742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_factory.h" line="22" column="1"/>
+        <location file="faiss/index_factory.h" line="24" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aa41490abaa2dad0dd2131150ed99ef8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -761,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="39" column="1"/>
+        <location file="faiss/index_io.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1add675e330da6a82b27101862206de6c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -782,7 +784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="40" column="1"/>
+        <location file="faiss/index_io.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a3a8129dcbf07c731ae1b3fbb6ed7df73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -803,7 +805,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="41" column="1"/>
+        <location file="faiss/index_io.h" line="40" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a61da4238a64561284de20324b93314bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -824,7 +826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="43" column="1"/>
+        <location file="faiss/index_io.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a2ac354e079e69777c2a3f4ce205372ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -845,7 +847,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="44" column="1"/>
+        <location file="faiss/index_io.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af2b88a1a1d4ac1d78493f085cacfb456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -866,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="45" column="1"/>
+        <location file="faiss/index_io.h" line="44" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a9f92542b9b15adc994f54ef6b3902af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> *</type>
@@ -888,7 +890,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="58" column="1"/>
+        <location file="faiss/index_io.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ac275376d59e3a50eec08c6ea47cc0e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> *</type>
@@ -910,7 +912,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="59" column="1"/>
+        <location file="faiss/index_io.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a5f7757d2c9efb4b33e03adf392338a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> *</type>
@@ -932,7 +934,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="60" column="1"/>
+        <location file="faiss/index_io.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af6c571991d95301f78487c231ffade57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> *</type>
@@ -954,7 +956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="62" column="1"/>
+        <location file="faiss/index_io.h" line="61" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a38d8255e46b834d2ca23bc926c1fbb6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> *</type>
@@ -976,7 +978,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="63" column="1"/>
+        <location file="faiss/index_io.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1abfceef97b9853955e1e81d922076001c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1IndexBinary" kindref="compound">IndexBinary</ref> *</type>
@@ -998,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="64" column="1"/>
+        <location file="faiss/index_io.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad72efd9404a8058159f1ae48225a2d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1019,7 +1021,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="66" column="1"/>
+        <location file="faiss/index_io.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a220b5d46772f1659de69061c976916f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1VectorTransform" kindref="compound">VectorTransform</ref> *</type>
@@ -1036,7 +1038,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="67" column="1"/>
+        <location file="faiss/index_io.h" line="66" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a424578a3c798b4f0deb428ca777882b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ProductQuantizer *</type>
@@ -1053,7 +1055,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="69" column="1"/>
+        <location file="faiss/index_io.h" line="68" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a744fe50a3410862d1c282f0c8d779231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ProductQuantizer *</type>
@@ -1070,7 +1072,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="70" column="1"/>
+        <location file="faiss/index_io.h" line="69" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aeecb2752b0d13ace2d17ebc0189e9ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1091,7 +1093,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="72" column="1"/>
+        <location file="faiss/index_io.h" line="71" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1adbd20721104c8523bbc53d82f839b03c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1112,7 +1114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="73" column="1"/>
+        <location file="faiss/index_io.h" line="72" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aceed566acb3d5edfa90c70198ba5d962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1133,7 +1135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="75" column="1"/>
+        <location file="faiss/index_io.h" line="74" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ada48910294697ded009a42677f92beeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structfaiss_1_1InvertedLists" kindref="compound">InvertedLists</ref> *</type>
@@ -1155,7 +1157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/index_io.h" line="76" column="1"/>
+        <location file="faiss/index_io.h" line="75" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a08f648e8a7cb35af103a982fee81986e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1203,7 +1205,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVFPQ.h" line="145" column="1"/>
+        <location file="faiss/IndexIVFPQ.h" line="156" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aaa38f721404f4610f50d04ab0a01ad28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint64_t</type>
@@ -1224,7 +1226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/invlists/DirectMap.h" line="22" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="22" bodyend="24"/>
+        <location file="faiss/invlists/DirectMap.h" line="21" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="21" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afe521d71f2a4dd6a99b0a5d9fbe19787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint64_t</type>
@@ -1241,7 +1243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/invlists/DirectMap.h" line="26" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="26" bodyend="28"/>
+        <location file="faiss/invlists/DirectMap.h" line="25" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="25" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a31e62b2521dd1eeb8632005add40ecbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint64_t</type>
@@ -1258,7 +1260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/invlists/DirectMap.h" line="30" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="30" bodyend="32"/>
+        <location file="faiss/invlists/DirectMap.h" line="29" column="1" bodyfile="faiss/invlists/DirectMap.h" bodystart="29" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a80366c0d6f4ee6aea791c7bccf391f73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1283,7 +1285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/AlignedTable.h" line="23" column="1" bodyfile="faiss/utils/AlignedTable.h" bodystart="23" bodyend="27"/>
+        <location file="faiss/utils/AlignedTable.h" line="22" column="1" bodyfile="faiss/utils/AlignedTable.h" bodystart="22" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7466bd32de31640860393a701eaac5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1308,7 +1310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="29" column="1"/>
+        <location file="faiss/utils/distances.h" line="28" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af6490f0d832462623e19a96481daeef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1333,7 +1335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="35" column="1"/>
+        <location file="faiss/utils/distances.h" line="31" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ab43fbb711cebede63ce85090fcc2b4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1358,7 +1360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="41" column="1"/>
+        <location file="faiss/utils/distances.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a31e28b5857d1df465e0b7c4785989d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1383,7 +1385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="46" column="1"/>
+        <location file="faiss/utils/distances.h" line="36" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ac7a976807ce755fe82dde95efaecaf99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1487,7 +1489,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="62" column="1"/>
+        <location file="faiss/utils/distances.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1f0c0270de04cc395edd3d2823d0128d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1520,7 +1522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="69" column="1"/>
+        <location file="faiss/utils/distances.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a4ca22849311a991b72676be10315e2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1553,7 +1555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="76" column="1"/>
+        <location file="faiss/utils/distances.h" line="68" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7a49180ebf10e643217bbce5862c7f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1574,7 +1576,7 @@
 <para>squared norm of a vector </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="84" column="1"/>
+        <location file="faiss/utils/distances.h" line="76" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a40265aa2cbbe57e5b223c2c7dafac31f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1618,7 +1620,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="92" column="1"/>
+        <location file="faiss/utils/distances.h" line="83" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1abce90e9d55d6838c7a37422285192d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1647,7 +1649,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="95" column="1"/>
+        <location file="faiss/utils/distances.h" line="86" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1d81952ec447e6886d2fd3b930fdc096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1672,7 +1674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="98" column="1"/>
+        <location file="faiss/utils/distances.h" line="89" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a948cc81e43160b04d3e4c2cd8041f9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1705,7 +1707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="104" column="1"/>
+        <location file="faiss/utils/distances.h" line="94" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a3ccc8ec4f2a74c6154befe048fe83f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1746,7 +1748,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="115" column="1"/>
+        <location file="faiss/utils/distances.h" line="107" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a470eea056c32c67ac13bb4791394b0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1787,7 +1789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="123" column="1"/>
+        <location file="faiss/utils/distances.h" line="117" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afbe3e1fcb434cea1ee9ff8ed6ec1d609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1864,7 +1866,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="139" column="1"/>
+        <location file="faiss/utils/distances.h" line="134" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a687edf56ab386203fcd992572c539f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1905,7 +1907,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="146" column="1"/>
+        <location file="faiss/utils/distances.h" line="144" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a880c7318971f866267a86945aaa61b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1964,7 +1966,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="174" column="1"/>
+        <location file="faiss/utils/distances.h" line="175" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7931bf425c5825f2634c20952bbdb4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2014,7 +2016,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="183" column="1"/>
+        <location file="faiss/utils/distances.h" line="186" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1adaadf5c986701e97103b476018c6d488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2055,7 +2057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="194" column="1"/>
+        <location file="faiss/utils/distances.h" line="198" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad3d348596de734e44b4dd89fdc19cc32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2096,7 +2098,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="201" column="1"/>
+        <location file="faiss/utils/distances.h" line="207" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a139f6e538b65f47b826794620af7d491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2166,7 +2168,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="225" column="1"/>
+        <location file="faiss/utils/distances.h" line="231" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ab29d725b808df6f142b80f21aa45e507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2207,7 +2209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="233" column="1"/>
+        <location file="faiss/utils/distances.h" line="241" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a6bae4e24e73c75640d6db8760e513d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2248,7 +2250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/distances.h" line="246" column="1"/>
+        <location file="faiss/utils/distances.h" line="255" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ada09f7cd8c85cfbc3caf5b943b10bcc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2308,7 +2310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/extra_distances.h" line="27" column="1"/>
+        <location file="faiss/utils/extra_distances.h" line="24" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a5accc87f00bcb41b304aa6695767f176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2353,7 +2355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/extra_distances.h" line="36" column="1"/>
+        <location file="faiss/utils/extra_distances.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af8590366fb08be90126b12dbecea7d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DistanceComputer *</type>
@@ -2386,7 +2388,7 @@
 <para>get a DistanceComputer that refers to this type of distance and indexes a flat array of size nb </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/extra_distances.h" line="46" column="1"/>
+        <location file="faiss/utils/extra_distances.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a3c20def47976af19292a160b2ec551d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2402,7 +2404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="347" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="368" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1acb4e4208ec84a403e02dba1b18b29840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2418,7 +2420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="348" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="369" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a138c0f4e83d2e8b7fdd90ef895f8c6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2434,7 +2436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="349" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="370" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a965aa1292a3957feaaec0f4ed1b54f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2450,7 +2452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="350" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="371" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a69f0b96e4d8c59be97ee73aedafac0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2466,7 +2468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="351" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="372" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aadcee2efcbb11d2c1d284589ba12b8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -2482,7 +2484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="352" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="373" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a69337e23232a204be3e1464713fee62d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -2499,7 +2501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="363" column="1" bodyfile="faiss/utils/hamming-inl.h" bodystart="363" bodyend="369"/>
+        <location file="faiss/utils/hamming-inl.h" line="382" column="1" bodyfile="faiss/utils/hamming-inl.h" bodystart="382" bodyend="388"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a31146ebd95375313ae7c02ba06209ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2537,7 +2539,7 @@
 <para>generalized Hamming distances (= count number of code bytes that are the same) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming-inl.h" line="445" column="1"/>
+        <location file="faiss/utils/hamming-inl.h" line="461" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0e10b0864a93653945dbd950b9fcdacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2558,7 +2560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="45" column="1"/>
+        <location file="faiss/utils/hamming.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a224890519ae5efe7a3c8cdf94bda60e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2587,7 +2589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="55" column="1"/>
+        <location file="faiss/utils/hamming.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad8f68b3bcb7a897358ab8501ea86b897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2616,7 +2618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="61" column="1"/>
+        <location file="faiss/utils/hamming.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afde8c1f96d4c776b101dd67cc0064c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2641,7 +2643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="68" column="1"/>
+        <location file="faiss/utils/hamming.h" line="56" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a6ea3261fda6f9dc53c401b4cccb90268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2678,7 +2680,7 @@
 <para>Shuffle the bits from b(i, j) := a(i, order[j]) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="72" column="1"/>
+        <location file="faiss/utils/hamming.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7d2125afc95e3417b270cb9428f8e0ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -2695,7 +2697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="115" column="1" bodyfile="faiss/utils/hamming.h" bodystart="115" bodyend="117"/>
+        <location file="faiss/utils/hamming.h" line="102" column="1" bodyfile="faiss/utils/hamming.h" bodystart="102" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0832c5ab58f4d1a340b0bde273c5b501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2761,7 +2763,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="127" column="1"/>
+        <location file="faiss/utils/hamming.h" line="113" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a111b1ab3b50bcd06d29c588122811477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2834,7 +2836,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="145" column="1"/>
+        <location file="faiss/utils/hamming.h" line="129" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0c5abbe20058359340d9c7cb635f344b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2871,7 +2873,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="154" column="1"/>
+        <location file="faiss/utils/hamming.h" line="138" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7910c770df07bd8b6168ece7f5ff92ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2973,7 +2975,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="174" column="1"/>
+        <location file="faiss/utils/hamming.h" line="158" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1032890ca79ab7443c0af4fde09b121c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3014,7 +3016,7 @@
 <para>same as hammings_knn except we are doing a range search with radius </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="185" column="1"/>
+        <location file="faiss/utils/hamming.h" line="169" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ac713458e556afa5bd612b88944292d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3055,7 +3057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="197" column="1"/>
+        <location file="faiss/utils/hamming.h" line="180" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad32229f823f2a0a920f0b62a702a67c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -3100,7 +3102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="208" column="1"/>
+        <location file="faiss/utils/hamming.h" line="191" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a399cfe2b1a7b2e3d722e10654c164ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3133,7 +3135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="219" column="1"/>
+        <location file="faiss/utils/hamming.h" line="202" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af860acfd5b9adbb6a50d4b458d0df8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>hamdis_t</type>
@@ -3158,7 +3160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/hamming.h" line="228" column="1"/>
+        <location file="faiss/utils/hamming.h" line="210" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1d40aec5723474516de576263cc03048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3188,7 +3190,7 @@
 <para>Pops the top element from the heap defined by bh_val[0..k-1] and bh_ids[0..k-1]. on output the element at k-1 is undefined. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="51" column="1" bodyfile="faiss/utils/Heap.h" bodystart="51" bodyend="79"/>
+        <location file="faiss/utils/Heap.h" line="46" column="1" bodyfile="faiss/utils/Heap.h" bodystart="46" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1acbe85976d4f73309622f6b62c4d7af2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3226,7 +3228,7 @@
 <para>Pushes the element (val, ids) into the heap bh_val[0..k-2] and bh_ids[0..k-2]. on output the element at k-1 is defined. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="87" column="1" bodyfile="faiss/utils/Heap.h" bodystart="87" bodyend="104"/>
+        <location file="faiss/utils/Heap.h" line="78" column="1" bodyfile="faiss/utils/Heap.h" bodystart="78" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ae2b2237197d94a5414eef24eb7b93700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3264,7 +3266,7 @@
 <para>Replace the top element from the heap defined by bh_val[0..k-1] and bh_ids[0..k-1]. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="112" column="1" bodyfile="faiss/utils/Heap.h" bodystart="112" bodyend="141"/>
+        <location file="faiss/utils/Heap.h" line="103" column="1" bodyfile="faiss/utils/Heap.h" bodystart="103" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a6007eab1211f86326246114757ee8c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3294,7 +3296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="148" column="1" bodyfile="faiss/utils/Heap.h" bodystart="148" bodyend="151"/>
+        <location file="faiss/utils/Heap.h" line="138" column="1" bodyfile="faiss/utils/Heap.h" bodystart="138" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a34d5f3d2e6e58005727989c3b2def7fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3332,7 +3334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="155" column="1" bodyfile="faiss/utils/Heap.h" bodystart="155" bodyend="158"/>
+        <location file="faiss/utils/Heap.h" line="143" column="1" bodyfile="faiss/utils/Heap.h" bodystart="143" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a56261d03ad06ddadde7f9c8161c48f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3370,7 +3372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="162" column="1" bodyfile="faiss/utils/Heap.h" bodystart="162" bodyend="165"/>
+        <location file="faiss/utils/Heap.h" line="153" column="1" bodyfile="faiss/utils/Heap.h" bodystart="153" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af1853d9d3e0c4c0d3ebf204c1f50c30c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3400,7 +3402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="169" column="1" bodyfile="faiss/utils/Heap.h" bodystart="169" bodyend="172"/>
+        <location file="faiss/utils/Heap.h" line="163" column="1" bodyfile="faiss/utils/Heap.h" bodystart="163" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a8c87f0f0d3f96ede4b6cd031592aaed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3438,7 +3440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="176" column="1" bodyfile="faiss/utils/Heap.h" bodystart="176" bodyend="179"/>
+        <location file="faiss/utils/Heap.h" line="168" column="1" bodyfile="faiss/utils/Heap.h" bodystart="168" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0060a794c9aa0f221dec2ed996f4cab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3476,7 +3478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="183" column="1" bodyfile="faiss/utils/Heap.h" bodystart="183" bodyend="186"/>
+        <location file="faiss/utils/Heap.h" line="178" column="1" bodyfile="faiss/utils/Heap.h" bodystart="178" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a8617ea308e081aed83d4a084a9d31f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3521,7 +3523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="197" column="1" bodyfile="faiss/utils/Heap.h" bodystart="197" bodyend="220"/>
+        <location file="faiss/utils/Heap.h" line="195" column="1" bodyfile="faiss/utils/Heap.h" bodystart="195" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a74010fa2ad110134f8b7c5e3af54a98b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3566,7 +3568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="223" column="1" bodyfile="faiss/utils/Heap.h" bodystart="223" bodyend="231"/>
+        <location file="faiss/utils/Heap.h" line="220" column="1" bodyfile="faiss/utils/Heap.h" bodystart="220" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad80324df320ebcc1e5deecbe4e8626d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3611,7 +3613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="235" column="1" bodyfile="faiss/utils/Heap.h" bodystart="235" bodyend="244"/>
+        <location file="faiss/utils/Heap.h" line="231" column="1" bodyfile="faiss/utils/Heap.h" bodystart="231" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afa5c2b8f24eb244fb064af0c7d853422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3653,7 +3655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="255" column="1" bodyfile="faiss/utils/Heap.h" bodystart="255" bodyend="274"/>
+        <location file="faiss/utils/Heap.h" line="247" column="1" bodyfile="faiss/utils/Heap.h" bodystart="247" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad1864b81445cbbc1ffe06fa8d0d26943" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3695,7 +3697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="280" column="1" bodyfile="faiss/utils/Heap.h" bodystart="280" bodyend="284"/>
+        <location file="faiss/utils/Heap.h" line="272" column="1" bodyfile="faiss/utils/Heap.h" bodystart="272" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a31eaeca29f48abb9ca4822085ab24a47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3737,7 +3739,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="287" column="1" bodyfile="faiss/utils/Heap.h" bodystart="287" bodyend="291"/>
+        <location file="faiss/utils/Heap.h" line="283" column="1" bodyfile="faiss/utils/Heap.h" bodystart="283" bodyend="291"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a4e69334ccd78982042a6210c743d0418" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3767,7 +3769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="306" column="1" bodyfile="faiss/utils/Heap.h" bodystart="306" bodyend="332"/>
+        <location file="faiss/utils/Heap.h" line="300" column="1" bodyfile="faiss/utils/Heap.h" bodystart="300" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aa29a53dfe2924fb9684292be43539228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3797,7 +3799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="335" column="1" bodyfile="faiss/utils/Heap.h" bodystart="335" bodyend="338"/>
+        <location file="faiss/utils/Heap.h" line="332" column="1" bodyfile="faiss/utils/Heap.h" bodystart="332" bodyend="334"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1adf25de8d60180e4d314a6d1be95d4334" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3827,7 +3829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="341" column="1" bodyfile="faiss/utils/Heap.h" bodystart="341" bodyend="344"/>
+        <location file="faiss/utils/Heap.h" line="337" column="1" bodyfile="faiss/utils/Heap.h" bodystart="337" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a8023405f5360828c9a892510a5f4c4ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3857,7 +3859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="451" column="1" bodyfile="faiss/utils/Heap.h" bodystart="451" bodyend="478"/>
+        <location file="faiss/utils/Heap.h" line="432" column="1" bodyfile="faiss/utils/Heap.h" bodystart="432" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a8ecaf37c77256e02a946e1572b992ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3891,7 +3893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/Heap.h" line="484" column="1" bodyfile="faiss/utils/Heap.h" bodystart="484" bodyend="499"/>
+        <location file="faiss/utils/Heap.h" line="461" column="1" bodyfile="faiss/utils/Heap.h" bodystart="461" bodyend="477"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a36bf2bb72e8dd3c2e320a6ef89765635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3913,7 +3915,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="37" column="1"/>
+        <location file="faiss/utils/ordered_key_value.h" line="35" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a6081a16de4c32586093673ee7590731f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3935,7 +3937,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="38" column="1"/>
+        <location file="faiss/utils/ordered_key_value.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a49b45a342afbbed4b3d58dd42ff19f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3954,7 +3956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="81" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="81" bodyend="83"/>
+        <location file="faiss/utils/ordered_key_value.h" line="77" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="77" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0f12494aca68dc1eafaee9caefb3a4b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3973,7 +3975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="85" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="85" bodyend="87"/>
+        <location file="faiss/utils/ordered_key_value.h" line="82" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="82" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1abec32c4c15ce3c61dc2dfd6ca6a8382f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3992,7 +3994,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="89" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="89" bodyend="91"/>
+        <location file="faiss/utils/ordered_key_value.h" line="87" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a8bfdae186db8cb49267f2164f89f5f48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4011,7 +4013,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/ordered_key_value.h" line="93" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="93" bodyend="95"/>
+        <location file="faiss/utils/ordered_key_value.h" line="92" column="1" bodyfile="faiss/utils/ordered_key_value.h" bodystart="92" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a9c403fd30f8012bde1e38ea9c2dcdab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -4053,7 +4055,7 @@
 <para>partitions the table into 0:q and q:n where all elements above q are &gt;= all elements below q (for C = <ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref>, for <ref refid="structfaiss_1_1CMin" kindref="compound">CMin</ref> comparisons are reversed)</para><para>Returns the partition threshold. The elements q:n are destroyed on output. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/partitioning.h" line="25" column="1"/>
+        <location file="faiss/utils/partitioning.h" line="23" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afad6c999c4af7456ef9954f2f3021592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4087,7 +4089,7 @@
 <para>simplified interface for when the parition is not fuzzy </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/partitioning.h" line="31" column="1" bodyfile="faiss/utils/partitioning.h" bodystart="31" bodyend="36"/>
+        <location file="faiss/utils/partitioning.h" line="33" column="1" bodyfile="faiss/utils/partitioning.h" bodystart="33" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a607e40148f9d63cc082cb0ed7cbdc1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4120,7 +4122,7 @@
 <para>low level SIMD histogramming functions 8-bin histogram of (x - min) &gt;&gt; shift values outside the range are ignored. the data table should be aligned on 32 bytes </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/partitioning.h" line="43" column="1"/>
+        <location file="faiss/utils/partitioning.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aff3bc91a0aef8d8aca171a67611b65a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4153,7 +4155,7 @@
 <para>same for 16-bin histogram </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/partitioning.h" line="49" column="1"/>
+        <location file="faiss/utils/partitioning.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a5044a6332355bfa866dda113f81e9602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4178,7 +4180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="49" column="1"/>
+        <location file="faiss/utils/random.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aa149aec8f65085773f664bb7b5884743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4203,7 +4205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="50" column="1"/>
+        <location file="faiss/utils/random.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aba416d6990d202bfc7eac244a7d874c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4228,7 +4230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="51" column="1"/>
+        <location file="faiss/utils/random.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a4d573c579e00f4c78a8fa9a50a6a7100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4253,7 +4255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="52" column="1"/>
+        <location file="faiss/utils/random.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ac394a01fe370ddc30c394cdea9527fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4282,7 +4284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="54" column="1"/>
+        <location file="faiss/utils/random.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad40228bb4ba7a96e0fe801b9f9b7c900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4307,7 +4309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/random.h" line="57" column="1"/>
+        <location file="faiss/utils/random.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ae44e64d0db11cd08cfae98b8055628c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd16uint16" kindref="compound">simd16uint16</ref></type>
@@ -4328,7 +4330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="208" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="208" bodyend="210"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="202" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="202" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1970d7e0fa67324947657d43a5bae9ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd16uint16" kindref="compound">simd16uint16</ref></type>
@@ -4349,7 +4351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="212" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="212" bodyend="214"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="206" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="206" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a44550e642ff438af2de805eeaf7cda23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd16uint16" kindref="compound">simd16uint16</ref></type>
@@ -4370,7 +4372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="221" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="221" bodyend="227"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="213" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="213" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a12cfacbde86018137e809d6f5a058d7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -4395,7 +4397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="231" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="231" bodyend="246"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="222" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="222" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ab3ce07e3be6ce83bbc1a0bf229c707c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -4420,7 +4422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="249" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="249" bodyend="264"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="238" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="238" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afdc84fda618656633753330c92ad070e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd32uint8" kindref="compound">simd32uint8</ref></type>
@@ -4441,7 +4443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="348" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="348" bodyend="350"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="332" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="332" bodyend="334"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a1a1ef7dc74c5b448482e503fb435400f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -4458,7 +4460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="353" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="353" bodyend="355"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="337" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="337" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a376a50b76efda66b8e55b8deb5ad8dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd32uint8" kindref="compound">simd32uint8</ref></type>
@@ -4483,7 +4485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="358" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="358" bodyend="360"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="342" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="342" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a40aa73417b26cd8c6872493a3c21b14d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd8float32" kindref="compound">simd8float32</ref></type>
@@ -4504,7 +4506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="443" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="443" bodyend="445"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="421" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="421" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1adfeefc42906233e7666584a566533021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd8float32" kindref="compound">simd8float32</ref></type>
@@ -4525,7 +4527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="447" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="447" bodyend="449"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="425" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="425" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a6d471fb67aa075837cc9411f22fac9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd8float32" kindref="compound">simd8float32</ref></type>
@@ -4546,7 +4548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="451" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="451" bodyend="453"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="429" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="429" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aafdd3366a94e78d8ef74c58c55ea4bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structfaiss_1_1simd8float32" kindref="compound">simd8float32</ref></type>
@@ -4571,7 +4573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/simdlib_avx2.h" line="456" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="456" bodyend="458"/>
+        <location file="faiss/utils/simdlib_avx2.h" line="434" column="1" bodyfile="faiss/utils/simdlib_avx2.h" bodystart="434" bodyend="436"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af2a71f7d5402ae02ce169a4cc83020eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -4584,7 +4586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="37" column="1"/>
+        <location file="faiss/utils/utils.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aa3af5769b0b649f112332a874c64d361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -4597,7 +4599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="40" column="1"/>
+        <location file="faiss/utils/utils.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a090355c2725c425a511a367cbfe41262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -4610,7 +4612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="43" column="1"/>
+        <location file="faiss/utils/utils.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a40328c31abd0bbba5bd95d7de951e847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4672,7 +4674,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="57" column="1"/>
+        <location file="faiss/utils/utils.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a9da63b8bb84460f5e8ccf8e17622cc7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -4706,7 +4708,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="64" column="1"/>
+        <location file="faiss/utils/utils.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ab7c6da3d6915a010d5d3074d93878ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4739,7 +4741,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="69" column="1"/>
+        <location file="faiss/utils/utils.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1afb68fe89ad5e948974da1b70d7b4157c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4772,7 +4774,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="75" column="1"/>
+        <location file="faiss/utils/utils.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad5827240bc67d6f8a612ba8761b34714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4797,7 +4799,7 @@
 <para>distances are supposed to be sorted. Sorts indices with same distance </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="78" column="1"/>
+        <location file="faiss/utils/utils.h" line="73" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a104f2c4626def41c53ad1ca0027741cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -4826,7 +4828,7 @@
 <para>count the number of comon elements between v1 and v2 algorithm = sorting + bissection to avoid double-counting duplicates </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="83" column="1"/>
+        <location file="faiss/utils/utils.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7690bafb56c991da908ee11822c7a8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -4905,7 +4907,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="94" column="1"/>
+        <location file="faiss/utils/utils.h" line="92" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1aeffbb44eed1c07967d77b369d7ba7b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -4930,7 +4932,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="102" column="1"/>
+        <location file="faiss/utils/utils.h" line="103" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a94c1d99ac39d22e362aa27ce7c7ff714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -4951,7 +4953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="105" column="1"/>
+        <location file="faiss/utils/utils.h" line="106" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a027b726c606d329c30840e51b539ddb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5001,7 +5003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="111" column="1"/>
+        <location file="faiss/utils/utils.h" line="110" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a7bea462108bee98d8d5859b51ec4db8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -5030,7 +5032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="116" column="1"/>
+        <location file="faiss/utils/utils.h" line="113" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a154a47857ed321b9db91122770a16e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5074,7 +5076,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="123" column="1"/>
+        <location file="faiss/utils/utils.h" line="120" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a4369329c9dbdfe23e3f35d09ba7b5c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -5095,7 +5097,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="127" column="1"/>
+        <location file="faiss/utils/utils.h" line="123" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1af851590d865ea2eae8dae3ae72406bfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const float *</type>
@@ -5171,7 +5173,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="139" column="1"/>
+        <location file="faiss/utils/utils.h" line="134" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ac8260e10cfeed08a4344b85845773e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5218,7 +5220,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="149" column="1"/>
+        <location file="faiss/utils/utils.h" line="148" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ab491c9e2f77a750c9f0324bfe00e3e57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5265,7 +5267,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="158" column="1"/>
+        <location file="faiss/utils/utils.h" line="157" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1a0e26e4710a7c276f46b730d8ab6ac1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -5286,7 +5288,7 @@
 <para>A reasonable hashing function </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="162" column="1"/>
+        <location file="faiss/utils/utils.h" line="160" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1ad86caef545c6a7672422d7d34c03f446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5299,7 +5301,7 @@
 <para>Whether OpenMP annotations were respected. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/utils.h" line="165" column="1"/>
+        <location file="faiss/utils/utils.h" line="163" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

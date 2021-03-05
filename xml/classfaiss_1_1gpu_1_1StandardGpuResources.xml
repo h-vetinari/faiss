@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/gpu/StandardGpuResources.h" line="185" column="1"/>
+        <location file="faiss/gpu/StandardGpuResources.h" line="184" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1gpu_1_1StandardGpuResources_1a2d0caade01eb384bc82c2e8759a129a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>cudaStream_t</type>
@@ -241,25 +241,25 @@
     <detaileddescription>
 <para>Default implementation of <ref refid="classfaiss_1_1gpu_1_1GpuResources" kindref="compound">GpuResources</ref> that allocates a cuBLAS stream and 2 streams for use, as well as temporary memory. Internally, the Faiss GPU code uses the instance managed by getResources, but this is the user-facing object that is internally reference counted. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="829">
+      <node id="842">
         <label>faiss::gpu::StandardGpuResources</label>
         <link refid="classfaiss_1_1gpu_1_1StandardGpuResources"/>
-        <childnode refid="830" relation="public-inheritance">
+        <childnode refid="843" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="830">
+      <node id="843">
         <label>faiss::gpu::GpuResourcesProvider</label>
         <link refid="classfaiss_1_1gpu_1_1GpuResourcesProvider"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="831">
+      <node id="844">
         <label>faiss::gpu::StandardGpuResources</label>
         <link refid="classfaiss_1_1gpu_1_1StandardGpuResources"/>
-        <childnode refid="832" relation="public-inheritance">
+        <childnode refid="845" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="832">
+      <node id="845">
         <label>faiss::gpu::GpuResourcesProvider</label>
         <link refid="classfaiss_1_1gpu_1_1GpuResourcesProvider"/>
       </node>

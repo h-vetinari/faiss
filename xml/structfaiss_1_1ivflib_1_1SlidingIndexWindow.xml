@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="89" column="1" bodyfile="faiss/IVFlib.h" bodystart="89" bodyend="-1"/>
+        <location file="faiss/IVFlib.h" line="86" column="1" bodyfile="faiss/IVFlib.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1a10d876a9c750bc95986a22a57cf4fdc7" prot="public" static="no" mutable="no">
         <type><ref refid="structfaiss_1_1ArrayInvertedLists" kindref="compound">ArrayInvertedLists</ref> *</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="92" column="1" bodyfile="faiss/IVFlib.h" bodystart="92" bodyend="-1"/>
+        <location file="faiss/IVFlib.h" line="89" column="1" bodyfile="faiss/IVFlib.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1a8defa5121e371e64071c0eb956ad20d1" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="95" column="1" bodyfile="faiss/IVFlib.h" bodystart="95" bodyend="-1"/>
+        <location file="faiss/IVFlib.h" line="92" column="1" bodyfile="faiss/IVFlib.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1ac124372fd2b67bb901f0c71235165216" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="98" column="1" bodyfile="faiss/IVFlib.h" bodystart="98" bodyend="-1"/>
+        <location file="faiss/IVFlib.h" line="95" column="1" bodyfile="faiss/IVFlib.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1a6dfc430601d194c428c2a25e3afa4492" prot="public" static="no" mutable="no">
         <type>std::vector&lt; std::vector&lt; size_t &gt; &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="101" column="1" bodyfile="faiss/IVFlib.h" bodystart="101" bodyend="-1"/>
+        <location file="faiss/IVFlib.h" line="98" column="1" bodyfile="faiss/IVFlib.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="104" column="1"/>
+        <location file="faiss/IVFlib.h" line="101" column="1"/>
       </memberdef>
       <memberdef kind="function" id="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1accf1c7b8de188b74de0d6827beceac7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -122,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IVFlib.h" line="110" column="1"/>
+        <location file="faiss/IVFlib.h" line="107" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -130,32 +130,32 @@
     <detaileddescription>
 <para>A set of IndexIVFs concatenated together in a FIFO fashion. at each &quot;step&quot;, the oldest index slice is removed and a new index is added. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="818">
+      <node id="831">
         <label>faiss::InvertedLists</label>
         <link refid="structfaiss_1_1InvertedLists"/>
       </node>
-      <node id="819">
+      <node id="832">
         <label>faiss::Index</label>
         <link refid="structfaiss_1_1Index"/>
       </node>
-      <node id="817">
+      <node id="830">
         <label>faiss::ArrayInvertedLists</label>
         <link refid="structfaiss_1_1ArrayInvertedLists"/>
-        <childnode refid="818" relation="public-inheritance">
+        <childnode refid="831" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="816">
+      <node id="829">
         <label>faiss::ivflib::SlidingIndexWindow</label>
         <link refid="structfaiss_1_1ivflib_1_1SlidingIndexWindow"/>
-        <childnode refid="817" relation="usage">
+        <childnode refid="830" relation="usage">
           <edgelabel>ils</edgelabel>
         </childnode>
-        <childnode refid="819" relation="usage">
+        <childnode refid="832" relation="usage">
           <edgelabel>index</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="faiss/IVFlib.h" line="87" column="1" bodyfile="faiss/IVFlib.h" bodystart="87" bodyend="112"/>
+    <location file="faiss/IVFlib.h" line="84" column="1" bodyfile="faiss/IVFlib.h" bodystart="84" bodyend="108"/>
     <listofallmembers>
       <member refid="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1a10d876a9c750bc95986a22a57cf4fdc7" prot="public" virt="non-virtual"><scope>faiss::ivflib::SlidingIndexWindow</scope><name>ils</name></member>
       <member refid="structfaiss_1_1ivflib_1_1SlidingIndexWindow_1a2aae96a9373173e22686951e85b31aa1" prot="public" virt="non-virtual"><scope>faiss::ivflib::SlidingIndexWindow</scope><name>index</name></member>

@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="43" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="43" bodyend="43"/>
+        <location file="faiss/IndexReplicas.h" line="43" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="43" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1affcfc49402a7c3d5604689bfbab00326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="46" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="46" bodyend="46"/>
+        <location file="faiss/IndexReplicas.h" line="48" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="48" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1a5cdb2a340a3b4f45ec244d5398a29005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189,7 +189,7 @@
 <para><ref refid="structfaiss_1_1Index" kindref="compound">faiss::Index</ref> API All indices receive the same call </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="50" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1a6b110e7efab3d01be7ae7cb346d9fbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -210,7 +210,7 @@
 <para><ref refid="structfaiss_1_1Index" kindref="compound">faiss::Index</ref> API All indices receive the same call </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="54" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1ad6382e3ebaaca61607ad90fc80cdbd3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -243,7 +243,7 @@
 <para><ref refid="structfaiss_1_1Index" kindref="compound">faiss::Index</ref> API Query is partitioned into a slice for each sub-index split by ceil(n / #indices) for our sub-indices </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="59" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1a9fb6804492c12359b5cc2aa26fe6a6d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="66" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="71" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1a7b1233eb598fc053e61b7ceccdb9d71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -271,12 +271,12 @@
         <argsstring>()</argsstring>
         <name>syncWithSubIndexes</name>
         <briefdescription>
-<para>Synchronize the top-level index (IndexShards) with data in the sub-indices. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Synchronize the top-level index (IndexShards) with data in the sub-indices </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="69" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="75" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="73" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="79" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classfaiss_1_1IndexReplicasTemplate_1a1cc7b38bf2e478ac1ee26d332953fb30" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -312,7 +312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexReplicas.h" line="76" column="1"/>
+        <location file="faiss/IndexReplicas.h" line="82" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -320,28 +320,28 @@
     <detaileddescription>
 <para>Takes individual <ref refid="structfaiss_1_1Index" kindref="compound">faiss::Index</ref> instances, and splits queries for sending to each <ref refid="structfaiss_1_1Index" kindref="compound">Index</ref> instance, and joins the results together when done. Each index is managed by a separate CPU thread. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="599">
+      <node id="612">
         <label>ThreadedIndex&lt; IndexT &gt;</label>
       </node>
-      <node id="598">
+      <node id="611">
         <label>faiss::IndexReplicasTemplate&lt; IndexT &gt;</label>
         <link refid="classfaiss_1_1IndexReplicasTemplate"/>
-        <childnode refid="599" relation="public-inheritance">
+        <childnode refid="612" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="601">
+      <node id="614">
         <label>ThreadedIndex&lt; IndexT &gt;</label>
       </node>
-      <node id="600">
+      <node id="613">
         <label>faiss::IndexReplicasTemplate&lt; IndexT &gt;</label>
         <link refid="classfaiss_1_1IndexReplicasTemplate"/>
-        <childnode refid="601" relation="public-inheritance">
+        <childnode refid="614" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="faiss/IndexReplicas.h" line="21" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="21" bodyend="77"/>
+    <location file="faiss/IndexReplicas.h" line="21" column="1" bodyfile="faiss/IndexReplicas.h" bodystart="21" bodyend="83"/>
     <listofallmembers>
       <member refid="classfaiss_1_1IndexReplicasTemplate_1a6b110e7efab3d01be7ae7cb346d9fbf9" prot="public" virt="non-virtual"><scope>faiss::IndexReplicasTemplate</scope><name>add</name></member>
       <member refid="classfaiss_1_1IndexReplicasTemplate_1a34bf1c7e890c2e5a57307fd3ee5b980b" prot="public" virt="non-virtual"><scope>faiss::IndexReplicasTemplate</scope><name>add_replica</name></member>

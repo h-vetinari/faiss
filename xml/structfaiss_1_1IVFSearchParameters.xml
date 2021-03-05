@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="70" column="1" bodyfile="faiss/IndexIVF.h" bodystart="70" bodyend="-1"/>
+        <location file="faiss/IndexIVF.h" line="66" column="1" bodyfile="faiss/IndexIVF.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structfaiss_1_1IVFSearchParameters_1ac3e01728f6376ad727340525b2138782" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="71" column="1" bodyfile="faiss/IndexIVF.h" bodystart="71" bodyend="-1"/>
+        <location file="faiss/IndexIVF.h" line="67" column="1" bodyfile="faiss/IndexIVF.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="72" column="1" bodyfile="faiss/IndexIVF.h" bodystart="72" bodyend="72"/>
+        <location file="faiss/IndexIVF.h" line="68" column="1" bodyfile="faiss/IndexIVF.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="structfaiss_1_1IVFSearchParameters_1a06b15b5593c71acc1e03c35fba7520ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/IndexIVF.h" line="73" column="1" bodyfile="faiss/IndexIVF.h" bodystart="73" bodyend="73"/>
+        <location file="faiss/IndexIVF.h" line="69" column="1" bodyfile="faiss/IndexIVF.h" bodystart="69" bodyend="69"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -64,18 +64,18 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="657">
+      <node id="670">
         <label>faiss::IVFSearchParameters</label>
         <link refid="structfaiss_1_1IVFSearchParameters"/>
       </node>
-      <node id="658">
+      <node id="671">
         <label>faiss::IVFPQSearchParameters</label>
         <link refid="structfaiss_1_1IVFPQSearchParameters"/>
-        <childnode refid="657" relation="public-inheritance">
+        <childnode refid="670" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="faiss/IndexIVF.h" line="69" column="1" bodyfile="faiss/IndexIVF.h" bodystart="69" bodyend="74"/>
+    <location file="faiss/IndexIVF.h" line="65" column="1" bodyfile="faiss/IndexIVF.h" bodystart="65" bodyend="70"/>
     <listofallmembers>
       <member refid="structfaiss_1_1IVFSearchParameters_1a176fda7175cf94806caac1e553e151e3" prot="public" virt="non-virtual"><scope>faiss::IVFSearchParameters</scope><name>IVFSearchParameters</name></member>
       <member refid="structfaiss_1_1IVFSearchParameters_1ac3e01728f6376ad727340525b2138782" prot="public" virt="non-virtual"><scope>faiss::IVFSearchParameters</scope><name>max_codes</name></member>

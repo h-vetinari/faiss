@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/quantize_lut.h" line="34" column="1"/>
+        <location file="faiss/utils/quantize_lut.h" line="32" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1_1quantize__lut_1aaca4bcc4d17e5c66dbc07a7f93cad911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/quantize_lut.h" line="45" column="1"/>
+        <location file="faiss/utils/quantize_lut.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespacefaiss_1_1quantize__lut_1a352d817a7e7c95c57c2cce10b77e3248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136,7 +136,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="faiss/utils/quantize_lut.h" line="65" column="1"/>
+        <location file="faiss/utils/quantize_lut.h" line="67" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -144,6 +144,6 @@
     <detaileddescription>
 <para>Functions to quantize PQ floating-point Look Up Tables (LUT) to uint8, and biases to uint16. The accumulation is supposed to take place in uint16. The quantization coefficients are float (a, b) such that <verbatim> original_value = quantized_value * a / b
 </verbatim></para><para>The hardest part of the quantization is with multiple LUTs that need to be added up together. In that case, coefficient a has to be chosen so that the sum fits in a uint16 accumulator. </para>    </detaileddescription>
-    <location file="faiss/utils/quantize_lut.h" line="28" column="1"/>
+    <location file="faiss/utils/quantize_lut.h" line="26" column="1"/>
   </compounddef>
 </doxygen>

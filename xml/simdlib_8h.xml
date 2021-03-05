@@ -4,39 +4,39 @@
     <compoundname>simdlib.h</compoundname>
     <includes refid="simdlib__emulated_8h" local="no">faiss/utils/simdlib_emulated.h</includes>
     <incdepgraph>
-      <node id="1365">
+      <node id="1390">
         <label>functional</label>
       </node>
-      <node id="1363">
+      <node id="1388">
         <label>cstdint</label>
       </node>
-      <node id="1362">
+      <node id="1391">
         <label>string</label>
       </node>
-      <node id="1361">
+      <node id="1386">
         <label>faiss/utils/simdlib_emulated.h</label>
         <link refid="simdlib__emulated_8h_source"/>
-        <childnode refid="1362" relation="include">
+        <childnode refid="1387" relation="include">
         </childnode>
-        <childnode refid="1363" relation="include">
+        <childnode refid="1388" relation="include">
         </childnode>
-        <childnode refid="1364" relation="include">
+        <childnode refid="1389" relation="include">
         </childnode>
-        <childnode refid="1365" relation="include">
+        <childnode refid="1390" relation="include">
         </childnode>
-        <childnode refid="1366" relation="include">
+        <childnode refid="1391" relation="include">
         </childnode>
       </node>
-      <node id="1360">
+      <node id="1385">
         <label>faiss/utils/simdlib.h</label>
         <link refid="simdlib_8h"/>
-        <childnode refid="1361" relation="include">
+        <childnode refid="1386" relation="include">
         </childnode>
       </node>
-      <node id="1366">
+      <node id="1387">
         <label>algorithm</label>
       </node>
-      <node id="1364">
+      <node id="1389">
         <label>cstring</label>
       </node>
     </incdepgraph>
@@ -53,29 +53,27 @@
 <codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
-<codeline lineno="12"><highlight class="comment">/**<sp/>Abstractions<sp/>for<sp/>256-bit<sp/>registers</highlight></codeline>
-<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>The<sp/>objective<sp/>is<sp/>to<sp/>separate<sp/>the<sp/>different<sp/>interpretations<sp/>of<sp/>the<sp/>same</highlight></codeline>
-<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>registers<sp/>(as<sp/>a<sp/>vector<sp/>of<sp/>uint8,<sp/>uint16<sp/>or<sp/>uint32),<sp/>to<sp/>provide<sp/>printing</highlight></codeline>
-<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>functions.</highlight></codeline>
-<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment">/**<sp/>Abstractions<sp/>for<sp/>256-bit<sp/>registers</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>objective<sp/>is<sp/>to<sp/>separate<sp/>the<sp/>different<sp/>interpretations<sp/>of<sp/>the<sp/>same</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>registers<sp/>(as<sp/>a<sp/>vector<sp/>of<sp/>uint8,<sp/>uint16<sp/>or<sp/>uint32),<sp/>to<sp/>provide<sp/>printing</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>functions.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__AVX2__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__AVX2__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;faiss/utils/simdlib_avx2.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;faiss/utils/simdlib_avx2.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>emulated<sp/>=<sp/>all<sp/>operations<sp/>are<sp/>implemented<sp/>as<sp/>scalars</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;faiss/utils/simdlib_emulated.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FIXME:<sp/>make<sp/>a<sp/>SSE<sp/>version</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>this<sp/>ever<sp/>going<sp/>to<sp/>happen?<sp/>We<sp/>will<sp/>probably<sp/>rather<sp/>implement<sp/>AVX512</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>emulated<sp/>=<sp/>all<sp/>operations<sp/>are<sp/>implemented<sp/>as<sp/>scalars</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;faiss/utils/simdlib_emulated.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FIXME:<sp/>make<sp/>a<sp/>SSE<sp/>version</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>this<sp/>ever<sp/>going<sp/>to<sp/>happen?<sp/>We<sp/>will<sp/>probably<sp/>rather<sp/>implement<sp/>AVX512</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="faiss/utils/simdlib.h"/>
   </compounddef>

@@ -7,160 +7,166 @@
     <includes local="no">limits</includes>
     <includedby refid="Heap_8h" local="no">faiss/utils/Heap.h</includedby>
     <incdepgraph>
-      <node id="1324">
+      <node id="1348">
         <label>limits</label>
       </node>
-      <node id="1323">
+      <node id="1347">
         <label>cmath</label>
       </node>
-      <node id="1321">
+      <node id="1345">
         <label>faiss/utils/ordered_key_value.h</label>
         <link refid="ordered__key__value_8h"/>
-        <childnode refid="1322" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
-        <childnode refid="1323" relation="include">
+        <childnode refid="1347" relation="include">
         </childnode>
-        <childnode refid="1324" relation="include">
+        <childnode refid="1348" relation="include">
         </childnode>
       </node>
-      <node id="1322">
+      <node id="1346">
         <label>climits</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1344">
+      <node id="1369">
         <label>faiss/utils/distances.h</label>
         <link refid="distances_8h_source"/>
       </node>
-      <node id="1334">
+      <node id="1358">
         <label>faiss/IndexIVFPQ.h</label>
         <link refid="IndexIVFPQ_8h_source"/>
-        <childnode refid="1335" relation="include">
+        <childnode refid="1359" relation="include">
         </childnode>
-        <childnode refid="1336" relation="include">
+        <childnode refid="1360" relation="include">
         </childnode>
       </node>
-      <node id="1345">
+      <node id="1370">
         <label>faiss/utils/extra_distances.h</label>
         <link refid="extra__distances_8h_source"/>
       </node>
-      <node id="1343">
+      <node id="1367">
         <label>faiss/IndexBinaryHNSW.h</label>
         <link refid="IndexBinaryHNSW_8h_source"/>
       </node>
-      <node id="1327">
+      <node id="1351">
         <label>faiss/IndexIVF.h</label>
         <link refid="IndexIVF_8h_source"/>
-        <childnode refid="1328" relation="include">
+        <childnode refid="1352" relation="include">
         </childnode>
-        <childnode refid="1331" relation="include">
+        <childnode refid="1355" relation="include">
         </childnode>
-        <childnode refid="1332" relation="include">
+        <childnode refid="1356" relation="include">
         </childnode>
-        <childnode refid="1333" relation="include">
+        <childnode refid="1357" relation="include">
         </childnode>
-        <childnode refid="1334" relation="include">
+        <childnode refid="1358" relation="include">
         </childnode>
-        <childnode refid="1337" relation="include">
+        <childnode refid="1361" relation="include">
         </childnode>
-        <childnode refid="1338" relation="include">
+        <childnode refid="1362" relation="include">
         </childnode>
-        <childnode refid="1339" relation="include">
+        <childnode refid="1363" relation="include">
         </childnode>
-        <childnode refid="1340" relation="include">
+        <childnode refid="1364" relation="include">
         </childnode>
       </node>
-      <node id="1330">
+      <node id="1354">
         <label>faiss/IndexHNSW.h</label>
         <link refid="IndexHNSW_8h_source"/>
       </node>
-      <node id="1337">
+      <node id="1361">
         <label>faiss/IndexIVFSpectralHash.h</label>
         <link refid="IndexIVFSpectralHash_8h_source"/>
       </node>
-      <node id="1346">
+      <node id="1371">
         <label>faiss/utils/hamming.h</label>
         <link refid="hamming_8h_source"/>
       </node>
-      <node id="1333">
+      <node id="1357">
         <label>faiss/IndexIVFFlat.h</label>
         <link refid="IndexIVFFlat_8h_source"/>
       </node>
-      <node id="1339">
+      <node id="1363">
         <label>faiss/invlists/OnDiskInvertedLists.h</label>
         <link refid="OnDiskInvertedLists_8h_source"/>
       </node>
-      <node id="1338">
+      <node id="1362">
         <label>faiss/IndexLattice.h</label>
         <link refid="IndexLattice_8h_source"/>
       </node>
-      <node id="1332">
+      <node id="1356">
         <label>faiss/IndexBinaryIVF.h</label>
         <link refid="IndexBinaryIVF_8h_source"/>
       </node>
-      <node id="1341">
+      <node id="1365">
         <label>faiss/IndexBinaryHash.h</label>
         <link refid="IndexBinaryHash_8h_source"/>
       </node>
-      <node id="1326">
+      <node id="1350">
         <label>faiss/utils/Heap.h</label>
         <link refid="Heap_8h_source"/>
-        <childnode refid="1327" relation="include">
+        <childnode refid="1351" relation="include">
         </childnode>
-        <childnode refid="1341" relation="include">
+        <childnode refid="1365" relation="include">
         </childnode>
-        <childnode refid="1342" relation="include">
+        <childnode refid="1366" relation="include">
         </childnode>
-        <childnode refid="1332" relation="include">
+        <childnode refid="1356" relation="include">
         </childnode>
-        <childnode refid="1344" relation="include">
+        <childnode refid="1369" relation="include">
         </childnode>
-        <childnode refid="1345" relation="include">
+        <childnode refid="1370" relation="include">
         </childnode>
-        <childnode refid="1346" relation="include">
+        <childnode refid="1371" relation="include">
         </childnode>
       </node>
-      <node id="1325">
+      <node id="1349">
         <label>faiss/utils/ordered_key_value.h</label>
         <link refid="ordered__key__value_8h"/>
-        <childnode refid="1326" relation="include">
+        <childnode refid="1350" relation="include">
         </childnode>
       </node>
-      <node id="1328">
+      <node id="1352">
         <label>faiss/IndexScalarQuantizer.h</label>
         <link refid="IndexScalarQuantizer_8h_source"/>
-        <childnode refid="1329" relation="include">
+        <childnode refid="1353" relation="include">
         </childnode>
-        <childnode refid="1330" relation="include">
+        <childnode refid="1354" relation="include">
         </childnode>
       </node>
-      <node id="1335">
+      <node id="1359">
         <label>faiss/IndexIVFPQFastScan.h</label>
         <link refid="IndexIVFPQFastScan_8h_source"/>
       </node>
-      <node id="1331">
+      <node id="1355">
         <label>faiss/Index2Layer.h</label>
         <link refid="Index2Layer_8h_source"/>
       </node>
-      <node id="1336">
+      <node id="1360">
         <label>faiss/IndexIVFPQR.h</label>
         <link refid="IndexIVFPQR_8h_source"/>
       </node>
-      <node id="1329">
+      <node id="1353">
         <label>faiss/gpu/GpuIndexIVFScalarQuantizer.h</label>
         <link refid="GpuIndexIVFScalarQuantizer_8h_source"/>
       </node>
-      <node id="1342">
+      <node id="1366">
         <label>faiss/utils/utils.h</label>
         <link refid="utils_8h_source"/>
-        <childnode refid="1343" relation="include">
+        <childnode refid="1367" relation="include">
         </childnode>
-        <childnode refid="1330" relation="include">
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
         </childnode>
       </node>
-      <node id="1340">
+      <node id="1364">
         <label>faiss/IVFlib.h</label>
         <link refid="IVFlib_8h_source"/>
+      </node>
+      <node id="1368">
+        <label>faiss/IndexNNDescent.h</label>
+        <link refid="IndexNNDescent_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structfaiss_1_1CMax" prot="public">faiss::CMax</innerclass>
@@ -179,97 +185,95 @@
 <codeline lineno="5"><highlight class="comment"><sp/>*<sp/>LICENSE<sp/>file<sp/>in<sp/>the<sp/>root<sp/>directory<sp/>of<sp/>this<sp/>source<sp/>tree.</highlight></codeline>
 <codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;climits&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;climits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacefaiss" kindref="compound">faiss</ref><sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacefaiss" kindref="compound">faiss</ref><sp/>{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************</highlight></codeline>
-<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>C<sp/>object:<sp/>uniform<sp/>handling<sp/>of<sp/>min<sp/>and<sp/>max<sp/>heap</highlight></codeline>
-<codeline lineno="22"><highlight class="comment"><sp/>*******************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
-<codeline lineno="24"><highlight class="comment">/**<sp/>The<sp/>C<sp/>object<sp/>gives<sp/>the<sp/>type<sp/>T<sp/>of<sp/>the<sp/>values<sp/>of<sp/>a<sp/>key-value<sp/>storage,<sp/>the<sp/>type</highlight></codeline>
-<codeline lineno="25"><highlight class="comment"><sp/>*<sp/><sp/>of<sp/>the<sp/>keys,<sp/>TI<sp/>and<sp/>the<sp/>comparison<sp/>that<sp/>is<sp/>done:<sp/>CMax<sp/>for<sp/>a<sp/>decreasing</highlight></codeline>
-<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/>series<sp/>and<sp/>CMin<sp/>for<sp/>increasing<sp/>series.<sp/>In<sp/>other<sp/>words,<sp/>for<sp/>a<sp/>given<sp/>threshold</highlight></codeline>
-<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/>threshold,<sp/>an<sp/>incoming<sp/>value<sp/>x<sp/>is<sp/>kept<sp/>if</highlight></codeline>
-<codeline lineno="28"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>C::cmp(threshold,<sp/>x)</highlight></codeline>
-<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
-<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/>is<sp/>true.</highlight></codeline>
-<codeline lineno="32"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>C<sp/>object:<sp/>uniform<sp/>handling<sp/>of<sp/>min<sp/>and<sp/>max<sp/>heap</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*******************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/**<sp/>The<sp/>C<sp/>object<sp/>gives<sp/>the<sp/>type<sp/>T<sp/>of<sp/>the<sp/>values<sp/>of<sp/>a<sp/>key-value<sp/>storage,<sp/>the<sp/>type</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/>of<sp/>the<sp/>keys,<sp/>TI<sp/>and<sp/>the<sp/>comparison<sp/>that<sp/>is<sp/>done:<sp/>CMax<sp/>for<sp/>a<sp/>decreasing</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/>series<sp/>and<sp/>CMin<sp/>for<sp/>increasing<sp/>series.<sp/>In<sp/>other<sp/>words,<sp/>for<sp/>a<sp/>given<sp/>threshold</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/><sp/>threshold,<sp/>an<sp/>incoming<sp/>value<sp/>x<sp/>is<sp/>kept<sp/>if</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>C::cmp(threshold,<sp/>x)</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/>is<sp/>true.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
+<codeline lineno="32" refid="structfaiss_1_1CMax" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
-<codeline lineno="35" refid="structfaiss_1_1CMax" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref>;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>T<sp/>cmin_nextafter(T<sp/>x);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>T<sp/>cmax_nextafter(T<sp/>x);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>traits<sp/>of<sp/>minheaps<sp/>=<sp/>heaps<sp/>where<sp/>the<sp/>minimum<sp/>value<sp/>is<sp/>stored<sp/>on<sp/>top</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>useful<sp/>to<sp/>find<sp/>the<sp/>*max*<sp/>values<sp/>of<sp/>an<sp/>array</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
-<codeline lineno="43" refid="structfaiss_1_1CMin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMin" kindref="compound">CMin</ref><sp/>{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>T_<sp/>T;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>TI_<sp/>TI;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">CMax&lt;T_, TI_&gt;</ref><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">Crev</ref>;<sp/></highlight><highlight class="comment">//<sp/>reference<sp/>to<sp/>reverse<sp/>comparison</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cmp<sp/>(T<sp/>a,<sp/>T<sp/>b)<sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&lt;<sp/>b;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>neutral<sp/>()<sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::numeric_limits&lt;T&gt;::lowest();</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_max<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>nextafter(T<sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cmin_nextafter(x);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref><sp/>{</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>T_<sp/>T;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>TI_<sp/>TI;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structfaiss_1_1CMin" kindref="compound">CMin&lt;T_, TI_&gt;</ref><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">Crev</ref>;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cmp<sp/>(T<sp/>a,<sp/>T<sp/>b)<sp/>{</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&gt;<sp/>b;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>neutral<sp/>()<sp/>{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::numeric_limits&lt;T&gt;::max();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>T<sp/>cmin_nextafter(T<sp/>x);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>T<sp/>cmax_nextafter(T<sp/>x);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>traits<sp/>of<sp/>minheaps<sp/>=<sp/>heaps<sp/>where<sp/>the<sp/>minimum<sp/>value<sp/>is<sp/>stored<sp/>on<sp/>top</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>useful<sp/>to<sp/>find<sp/>the<sp/>*max*<sp/>values<sp/>of<sp/>an<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
+<codeline lineno="42" refid="structfaiss_1_1CMin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMin" kindref="compound">CMin</ref><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>T_<sp/>T;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>TI_<sp/>TI;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">CMax&lt;T_, TI_&gt;</ref><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">Crev</ref>;<sp/></highlight><highlight class="comment">//<sp/>reference<sp/>to<sp/>reverse<sp/>comparison</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cmp(T<sp/>a,<sp/>T<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&lt;<sp/>b;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>neutral()<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::numeric_limits&lt;T&gt;::lowest();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_max<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>nextafter(T<sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cmin_nextafter(x);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TI_&gt;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfaiss_1_1CMax" kindref="compound">CMax</ref><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>T_<sp/>T;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>TI_<sp/>TI;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structfaiss_1_1CMin" kindref="compound">CMin&lt;T_, TI_&gt;</ref><sp/><ref refid="structfaiss_1_1CMax" kindref="compound">Crev</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cmp(T<sp/>a,<sp/>T<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&gt;<sp/>b;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>neutral()<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::numeric_limits&lt;T&gt;::max();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_max<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>nextafter(T<sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cmax_nextafter(x);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_max<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>nextafter(T<sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cmax_nextafter(x);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="78"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cmin_nextafter&lt;float&gt;(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nextafterf(x,<sp/>-HUGE_VALF);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cmin_nextafter&lt;float&gt;(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nextafterf(x,<sp/>-HUGE_VALF);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cmax_nextafter&lt;float&gt;(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nextafterf(x,<sp/>HUGE_VALF);</highlight></codeline>
-<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint16_t<sp/>cmin_nextafter&lt;uint16_t&gt;(uint16_t<sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>-<sp/>1;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint16_t<sp/>cmax_nextafter&lt;uint16_t&gt;(uint16_t<sp/>x)<sp/>{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>+<sp/>1;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>faiss</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cmax_nextafter&lt;float&gt;(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nextafterf(x,<sp/>HUGE_VALF);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint16_t<sp/>cmin_nextafter&lt;uint16_t&gt;(uint16_t<sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint16_t<sp/>cmax_nextafter&lt;uint16_t&gt;(uint16_t<sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>faiss</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="faiss/utils/ordered_key_value.h"/>
   </compounddef>
