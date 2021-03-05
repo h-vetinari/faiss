@@ -173,6 +173,8 @@
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexIVFStats.html">Struct faiss::IndexIVFStats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexLSH.html">Struct faiss::IndexLSH</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexLattice.html">Struct faiss::IndexLattice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexNNDescent.html">Struct faiss::IndexNNDescent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexNNDescentFlat.html">Struct faiss::IndexNNDescentFlat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQ.html">Struct faiss::IndexPQ</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQFastScan.html">Struct faiss::IndexPQFastScan</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQStats.html">Struct faiss::IndexPQStats</a></li>
@@ -337,8 +339,19 @@
 
 <dl class="cpp function">
 <dt id="_CPPv4NK5faiss21OneRecallAtRCriterion8evaluateEPKfPK5idx_t">
-<span id="_CPPv3NK5faiss21OneRecallAtRCriterion8evaluateEPKfPK5idx_t"></span><span id="_CPPv2NK5faiss21OneRecallAtRCriterion8evaluateEPKfPK5idx_t"></span><span id="faiss::OneRecallAtRCriterion::evaluate__floatCP.idx_tCPC"></span><span class="target" id="structfaiss_1_1OneRecallAtRCriterion_1afe472c2ae38534c293b02feebf87988d"></span><span class="pre">double</span> <code class="sig-name descname"><span class="pre">evaluate</span></code><span class="sig-paren">(</span><em class="property"><span class="pre">const</span></em> <span class="pre">float</span> <span class="pre">*</span><em><span class="pre">D</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../file/AutoTune_8h.html#_CPPv4N5faiss21OneRecallAtRCriterion5idx_tE" title="faiss::OneRecallAtRCriterion::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">I</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">const</span></em> <em class="property"><span class="pre">override</span></em><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv3NK5faiss21OneRecallAtRCriterion8evaluateEPKfPK5idx_t"></span><span id="_CPPv2NK5faiss21OneRecallAtRCriterion8evaluateEPKfPK5idx_t"></span><span id="faiss::OneRecallAtRCriterion::evaluate__floatCP.idx_tCPC"></span><span class="target" id="structfaiss_1_1OneRecallAtRCriterion_1afe472c2ae38534c293b02feebf87988d"></span><em class="property"><span class="pre">virtual</span></em> <span class="pre">double</span> <code class="sig-name descname"><span class="pre">evaluate</span></code><span class="sig-paren">(</span><em class="property"><span class="pre">const</span></em> <span class="pre">float</span> <span class="pre">*</span><em><span class="pre">D</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../file/AutoTune_8h.html#_CPPv4N5faiss21OneRecallAtRCriterion5idx_tE" title="faiss::OneRecallAtRCriterion::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">I</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">const</span></em> <em class="property"><span class="pre">override</span></em><br /></dt>
+<dd><p>Evaluate the criterion.</p>
+<p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>the criterion, between 0 and 1. Larger is better. </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">D</span></code>: size nq * nnn </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">I</span></code>: size nq * nnn </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
 
 <dl class="cpp function">
 <dt id="_CPPv4N5faiss21OneRecallAtRCriterionD0Ev">
@@ -353,22 +366,6 @@
 <dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">gt_D_in</span></code>: size nq * gt_nnn </p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">gt_I_in</span></code>: size nq * gt_nnn </p></li>
-</ul>
-</dd>
-</dl>
-</p>
-</dd></dl>
-
-<dl class="cpp function">
-<dt>
-<span class="target" id="structfaiss_1_1AutoTuneCriterion_1a9084449e216b331c5f753a10c6de6a47"></span><em class="property"><span class="pre">virtual</span></em> <span class="pre">double</span> <code class="sig-name descname"><span class="pre">evaluate</span></code><span class="sig-paren">(</span><em class="property"><span class="pre">const</span></em> <span class="pre">float</span> <span class="pre">*</span><em><span class="pre">D</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../file/AutoTune_8h.html#_CPPv4N5faiss21OneRecallAtRCriterion5idx_tE" title="faiss::OneRecallAtRCriterion::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">I</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">const</span></em> <span class="pre">=</span> <span class="pre">0</span><br /></dt>
-<dd><p>Evaluate the criterion.</p>
-<p><dl class="simple">
-<dt><strong>Return</strong></dt><dd><p>the criterion, between 0 and 1. Larger is better. </p>
-</dd>
-<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">D</span></code>: size nq * nnn </p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">I</span></code>: size nq * nnn </p></li>
 </ul>
 </dd>
 </dl>

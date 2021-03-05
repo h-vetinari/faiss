@@ -173,6 +173,8 @@
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexIVFStats.html">Struct faiss::IndexIVFStats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexLSH.html">Struct faiss::IndexLSH</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexLattice.html">Struct faiss::IndexLattice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexNNDescent.html">Struct faiss::IndexNNDescent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexNNDescentFlat.html">Struct faiss::IndexNNDescentFlat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQ.html">Struct faiss::IndexPQ</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQFastScan.html">Struct faiss::IndexPQFastScan</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1IndexPQStats.html">Struct faiss::IndexPQStats</a></li>
@@ -402,7 +404,14 @@
 <dl class="cpp function">
 <dt id="_CPPv4N5faiss14IndexBinaryIVF8add_coreE5idx_tPK7uint8_tPK5idx_tPK5idx_t">
 <span id="_CPPv3N5faiss14IndexBinaryIVF8add_coreE5idx_tPK7uint8_tPK5idx_tPK5idx_t"></span><span id="_CPPv2N5faiss14IndexBinaryIVF8add_coreE5idx_tPK7uint8_tPK5idx_tPK5idx_t"></span><span id="faiss::IndexBinaryIVF::add_core__idx_t.uint8_tCP.idx_tCP.idx_tCP"></span><span class="target" id="structfaiss_1_1IndexBinaryIVF_1a9155bcbd5293dc8946b108dd05050f47"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">add_core</span></code><span class="sig-paren">(</span><a class="reference internal" href="../namespace/namespacefaiss.html#_CPPv4N5faiss14IndexBinaryIVF5idx_tE" title="faiss::IndexBinaryIVF::idx_t"><span class="pre">idx_t</span></a> <em><span class="pre">n</span></em>, <em class="property"><span class="pre">const</span></em> <span class="pre">uint8_t</span> <span class="pre">*</span><em><span class="pre">x</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../namespace/namespacefaiss.html#_CPPv4N5faiss14IndexBinaryIVF5idx_tE" title="faiss::IndexBinaryIVF::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">xids</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../namespace/namespacefaiss.html#_CPPv4N5faiss14IndexBinaryIVF5idx_tE" title="faiss::IndexBinaryIVF::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">precomputed_idx</span></em><span class="sig-paren">)</span><br /></dt>
-<dd><p>same as add_with_ids, with precomputed coarse quantizer </p>
+<dd><p>Implementation of vector addition where the vector assignments are predefined.</p>
+<p><dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">precomputed_idx</span></code>: quantization indices for the input vectors (size n) </p></li>
+</ul>
+</dd>
+</dl>
+</p>
 </dd></dl>
 
 <dl class="cpp function">
@@ -451,6 +460,11 @@
 </dl>
 </p>
 </dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK5faiss14IndexBinaryIVF24range_search_preassignedE5idx_tPK7uint8_tiPK5idx_tPK7int32_tP17RangeSearchResult">
+<span id="_CPPv3NK5faiss14IndexBinaryIVF24range_search_preassignedE5idx_tPK7uint8_tiPK5idx_tPK7int32_tP17RangeSearchResult"></span><span id="_CPPv2NK5faiss14IndexBinaryIVF24range_search_preassignedE5idx_tPK7uint8_tiPK5idx_tPK7int32_tP17RangeSearchResult"></span><span id="faiss::IndexBinaryIVF::range_search_preassigned__idx_t.uint8_tCP.i.idx_tCP.int32_tCP.RangeSearchResultPC"></span><span class="target" id="structfaiss_1_1IndexBinaryIVF_1a84ad5f009fad999e54567bbb3f6a4fab"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">range_search_preassigned</span></code><span class="sig-paren">(</span><a class="reference internal" href="../namespace/namespacefaiss.html#_CPPv4N5faiss14IndexBinaryIVF5idx_tE" title="faiss::IndexBinaryIVF::idx_t"><span class="pre">idx_t</span></a> <em><span class="pre">n</span></em>, <em class="property"><span class="pre">const</span></em> <span class="pre">uint8_t</span> <span class="pre">*</span><em><span class="pre">x</span></em>, <span class="pre">int</span> <em><span class="pre">radius</span></em>, <em class="property"><span class="pre">const</span></em> <a class="reference internal" href="../namespace/namespacefaiss.html#_CPPv4N5faiss14IndexBinaryIVF5idx_tE" title="faiss::IndexBinaryIVF::idx_t"><span class="pre">idx_t</span></a> <span class="pre">*</span><em><span class="pre">assign</span></em>, <em class="property"><span class="pre">const</span></em> <span class="pre">int32_t</span> <span class="pre">*</span><em><span class="pre">centroid_dis</span></em>, <span class="pre">RangeSearchResult</span> <span class="pre">*</span><em><span class="pre">result</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">const</span></em><br /></dt>
+<dd></dd></dl>
 
 <dl class="cpp function">
 <dt id="_CPPv4NK5faiss14IndexBinaryIVF11reconstructE5idx_tP7uint8_t">
